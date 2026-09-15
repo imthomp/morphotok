@@ -1,0 +1,205 @@
+flores_code,name,morph_type,source,note
+ace_Arab,Acehnese (Arabic script),isolating,genus/family consensus,"Acehnese, Malayo-Chamic Austronesian"
+ace_Latn,Acehnese (Latin script),isolating,genus/family consensus,"Acehnese, Malayo-Chamic Austronesian"
+acm_Arab,Mesopotamian Arabic,introflexive,genus/family consensus,"Mesopotamian Arabic, Semitic"
+acq_Arab,Ta'izzi-Adeni Arabic,introflexive,genus/family consensus,"Ta'izzi-Adeni Arabic, Semitic"
+aeb_Arab,Tunisian Arabic,introflexive,genus/family consensus,"Tunisian Arabic, Semitic"
+afr_Latn,Afrikaans,isolating,genus/family consensus,"Afrikaans; most analytic Germanic language, lost nearly all inflection"
+ajp_Arab,South Levantine Arabic,introflexive,genus/family consensus,"South Levantine Arabic, Semitic"
+aka_Latn,Akan,isolating,genus/family consensus,"Akan, Kwa, analytic/tonal"
+als_Latn,Tosk Albanian,fusional,genus/family consensus,Tosk Albanian
+amh_Ethi,Amharic,introflexive,genus/family consensus,"Amharic, Semitic, templatic + agglutinative affixation"
+apc_Arab,North Levantine Arabic,introflexive,genus/family consensus,"North Levantine Arabic, Semitic"
+arb_Arab,Modern Standard Arabic,introflexive,WALS_20A,Modern Standard Arabic; WALS genus match Arabic (Egyptian)=ablaut/concatenative
+arb_Latn,Modern Standard Arabic (Romanized),introflexive,WALS_20A,Modern Standard Arabic; WALS genus match Arabic (Egyptian)=ablaut/concatenative
+ars_Arab,Najdi Arabic,introflexive,genus/family consensus,"Najdi Arabic, Semitic"
+ary_Arab,Moroccan Arabic,introflexive,genus/family consensus,"Moroccan Arabic, Semitic"
+arz_Arab,Egyptian Arabic,introflexive,WALS_20A,Egyptian Arabic; WALS direct: ablaut/concatenative
+asm_Beng,Assamese,fusional,genus/family consensus,"Assamese, Indo-Aryan"
+ast_Latn,Asturian,fusional,genus/family consensus,"Asturian, Romance"
+awa_Deva,Awadhi,fusional,genus/family consensus,"Awadhi, Indo-Aryan"
+ayr_Latn,Central Aymara,agglutinative,genus/family consensus,"Central Aymara, Aymaran; highly agglutinative"
+azb_Arab,South Azerbaijani,agglutinative,genus/family consensus,"South Azerbaijani, Turkic"
+azj_Latn,North Azerbaijani,agglutinative,genus/family consensus,"North Azerbaijani, Turkic"
+bak_Cyrl,Bashkir,agglutinative,genus/family consensus,"Bashkir, Turkic"
+bam_Latn,Bambara,isolating,genus/family consensus,"Bambara, Mande, prototypically isolating"
+ban_Latn,Balinese,isolating,genus/family consensus,"Balinese, Austronesian"
+bel_Cyrl,Belarusian,fusional,genus/family consensus,"Belarusian, Slavic"
+bem_Latn,Bemba,agglutinative,genus/family consensus,"Bemba, Bantu"
+ben_Beng,Bengali,fusional,genus/family consensus,"Bengali, Indo-Aryan"
+bho_Deva,Bhojpuri,fusional,genus/family consensus,"Bhojpuri, Indo-Aryan"
+bjn_Arab,Banjar (Arabic script),isolating,genus/family consensus,"Banjar, Malayic Austronesian"
+bjn_Latn,Banjar (Latin script),isolating,genus/family consensus,"Banjar, Malayic Austronesian"
+bod_Tibt,Standard Tibetan,agglutinative,genus/family consensus,Standard Tibetan; agglutinative case/verb particles
+bos_Latn,Bosnian,fusional,genus/family consensus,"Bosnian, Slavic"
+bug_Latn,Buginese,isolating,genus/family consensus,"Buginese, Austronesian"
+bul_Cyrl,Bulgarian,fusional,genus/family consensus,"Bulgarian, Slavic (lost case, but verb morphology remains fusional)"
+cat_Latn,Catalan,fusional,genus/family consensus,"Catalan, Romance"
+ceb_Latn,Cebuano,agglutinative,genus/family consensus,"Cebuano, Philippine Austronesian"
+ces_Latn,Czech,fusional,genus/family consensus,"Czech, Slavic"
+cjk_Latn,Chokwe,agglutinative,genus/family consensus,"Chokwe, Bantu"
+ckb_Arab,Central Kurdish,fusional,genus/family consensus,"Central Kurdish (Sorani), Iranian"
+crh_Latn,Crimean Tatar,agglutinative,genus/family consensus,"Crimean Tatar, Turkic"
+cym_Latn,Welsh,fusional,genus/family consensus,"Welsh, Celtic"
+dan_Latn,Danish,fusional,genus/family consensus,"Danish, Germanic"
+deu_Latn,German,fusional,WALS_20A,German; WALS direct concatenative + traditional fusional case/gender system
+dik_Latn,Southwestern Dinka,fusional,WALS_20A,Southwestern Dinka; WALS genus match Western Nilotic (Lango)=ablaut/concatenative
+dyu_Latn,Dyula,isolating,genus/family consensus,"Dyula, Mande"
+dzo_Tibt,Dzongkha,agglutinative,genus/family consensus,"Dzongkha, Bodish, agglutinative like Tibetan"
+ell_Grek,Greek,fusional,WALS_20A,Greek; WALS direct: exclusively concatenative + traditional fusional
+eng_Latn,English,isolating,genus/family consensus,"English; most analytic Germanic language, minimal inflectional synthesis"
+epo_Latn,Esperanto,agglutinative,genus/family consensus,Esperanto; designed as a regular agglutinative language
+est_Latn,Estonian,agglutinative,genus/family consensus,"Estonian, Uralic"
+eus_Latn,Basque,agglutinative,WALS_20A,Basque; WALS direct: exclusively concatenative + textbook (highly) agglutinative
+ewe_Latn,Ewe,isolating,genus/family consensus,"Ewe, Kwa, analytic/tonal"
+fao_Latn,Faroese,fusional,genus/family consensus,"Faroese, Germanic"
+fij_Latn,Fijian,isolating,WALS_20A,Fijian; WALS direct: exclusively isolating
+fin_Latn,Finnish,agglutinative,WALS_20A,Finnish; WALS direct: exclusively concatenative + textbook agglutinative
+fon_Latn,Fon,isolating,genus/family consensus,"Fon, Gbe/Kwa, analytic/tonal"
+fra_Latn,French,fusional,WALS_20A,French; WALS direct: exclusively concatenative + traditional fusional
+fur_Latn,Friulian,fusional,genus/family consensus,"Friulian, Romance"
+fuv_Latn,Nigerian Fulfulde,agglutinative,genus/family consensus,"Nigerian Fulfulde, Atlantic Niger-Congo, agglutinative noun-class system"
+gaz_Latn,West Central Oromo,agglutinative,genus/family consensus,"West Central Oromo, Cushitic"
+gla_Latn,Scottish Gaelic,fusional,genus/family consensus,"Scottish Gaelic, Celtic"
+gle_Latn,Irish,fusional,genus/family consensus,"Irish, Celtic"
+glg_Latn,Galician,fusional,genus/family consensus,"Galician, Romance"
+grn_Latn,Guarani,agglutinative,WALS_20A,Guarani; WALS direct: exclusively concatenative; textbook agglutinative w/ some polysynthetic traits
+guj_Gujr,Gujarati,fusional,genus/family consensus,"Gujarati, Indo-Aryan"
+hat_Latn,Haitian Creole,isolating,genus/family consensus,Haitian Creole; prototypically analytic creole
+hau_Latn,Hausa,isolating,WALS_20A,Hausa; WALS direct: exclusively isolating
+heb_Hebr,Hebrew,introflexive,WALS_20A,Hebrew (Modern); WALS direct: ablaut/concatenative
+hin_Deva,Hindi,fusional,WALS_20A,Hindi; WALS direct: exclusively concatenative + traditional fusional
+hne_Deva,Chhattisgarhi,fusional,genus/family consensus,"Chhattisgarhi, Indo-Aryan"
+hrv_Latn,Croatian,fusional,genus/family consensus,"Croatian, Slavic"
+hun_Latn,Hungarian,agglutinative,WALS_20A,Hungarian; WALS direct: exclusively concatenative + textbook agglutinative
+hye_Armn,Armenian,agglutinative,genus/family consensus,Armenian; classical IE but agglutinative-leaning nominal case system
+ibo_Latn,Igbo,isolating,genus/family consensus,"Igbo, Igboid, analytic/tonal"
+ilo_Latn,Ilocano,agglutinative,genus/family consensus,"Ilocano, Philippine Austronesian"
+ind_Latn,Indonesian,isolating,WALS_20A,Indonesian; WALS direct: exclusively isolating
+isl_Latn,Icelandic,fusional,genus/family consensus,"Icelandic, Germanic, retains rich case system"
+ita_Latn,Italian,fusional,genus/family consensus,"Italian, Romance"
+jav_Latn,Javanese,isolating,genus/family consensus,"Javanese, Austronesian"
+jpn_Jpan,Japanese,agglutinative,WALS_20A,Japanese; WALS direct: exclusively concatenative + textbook agglutinative
+kab_Latn,Kabyle,introflexive,WALS_20A,Kabyle; WALS genus match Berber (Middle Atlas)=ablaut/concatenative
+kac_Latn,Jingpho,agglutinative,genus/family consensus,"Jingpho, Sino-Tibetan, agglutinative"
+kam_Latn,Kamba,agglutinative,genus/family consensus,"Kamba, Bantu"
+kan_Knda,Kannada,agglutinative,WALS_20A,Kannada; WALS direct: exclusively concatenative + textbook agglutinative
+kas_Arab,Kashmiri (Arabic script),fusional,genus/family consensus,"Kashmiri, Indo-Aryan (Dardic branch)"
+kas_Deva,Kashmiri (Devanagari script),fusional,genus/family consensus,"Kashmiri, Indo-Aryan (Dardic branch)"
+kat_Geor,Georgian,agglutinative,WALS_20A,Georgian; WALS direct: exclusively concatenative + textbook agglutinative w/ polypersonal agreement
+kaz_Cyrl,Kazakh,agglutinative,genus/family consensus,"Kazakh, Turkic"
+kbp_Latn,Kabiyah,agglutinative,genus/family consensus,"Kabiyah, Gur, noun-class agglutinative morphology"
+kea_Latn,Kabuverdianu,isolating,genus/family consensus,Kabuverdianu; prototypically analytic Portuguese-lexifier creole
+khk_Cyrl,Halh Mongolian,agglutinative,genus/family consensus,Halh Mongolian; WALS genus Khalkha=exclusively concatenative + textbook agglutinative
+khm_Khmr,Khmer,isolating,genus/family consensus,"Khmer, Austroasiatic (Mon-Khmer)"
+kik_Latn,Kikuyu,agglutinative,genus/family consensus,"Kikuyu, Bantu"
+kin_Latn,Kinyarwanda,agglutinative,genus/family consensus,"Kinyarwanda, Bantu"
+kir_Cyrl,Kyrgyz,agglutinative,genus/family consensus,"Kyrgyz, Turkic"
+kmb_Latn,Kimbundu,agglutinative,genus/family consensus,"Kimbundu, Bantu"
+kmr_Latn,Northern Kurdish,fusional,genus/family consensus,"Northern Kurdish (Kurmanji), Iranian"
+knc_Arab,Central Kanuri (Arabic script),agglutinative,genus/family consensus,"Central Kanuri, Saharan (Nilo-Saharan), agglutinative"
+knc_Latn,Central Kanuri (Latin script),agglutinative,genus/family consensus,"Central Kanuri, Saharan (Nilo-Saharan), agglutinative"
+kon_Latn,Kikongo,agglutinative,genus/family consensus,"Kikongo, Bantu"
+kor_Hang,Korean,agglutinative,WALS_20A,Korean; WALS direct: exclusively concatenative + textbook agglutinative
+lao_Laoo,Lao,isolating,genus/family consensus,"Lao, Tai-Kadai"
+lij_Latn,Ligurian,fusional,genus/family consensus,"Ligurian, Romance"
+lim_Latn,Limburgish,fusional,genus/family consensus,"Limburgish, Germanic"
+lin_Latn,Lingala,agglutinative,genus/family consensus,"Lingala, Bantu"
+lit_Latn,Lithuanian,fusional,genus/family consensus,"Lithuanian, Baltic, archaic case system"
+lmo_Latn,Lombard,fusional,genus/family consensus,"Lombard, Romance"
+ltg_Latn,Latgalian,fusional,genus/family consensus,"Latgalian, Baltic"
+ltz_Latn,Luxembourgish,fusional,genus/family consensus,"Luxembourgish, Germanic"
+lua_Latn,Luba-Kasai,agglutinative,genus/family consensus,"Luba-Kasai, Bantu"
+lug_Latn,Ganda,agglutinative,genus/family consensus,"Ganda, Bantu"
+luo_Latn,Luo,agglutinative,genus/family consensus,"Luo, Nilotic (Western Nilotic), agglutinative verbal morphology"
+lus_Latn,Mizo,isolating,genus/family consensus,"Mizo, Kuki-Chin, tonal/isolating like other Kuki-Chin languages"
+lvs_Latn,Standard Latvian,fusional,genus/family consensus,"Standard Latvian, Baltic"
+mag_Deva,Magahi,fusional,genus/family consensus,"Magahi, Indo-Aryan"
+mai_Deva,Maithili,fusional,genus/family consensus,"Maithili, Indo-Aryan"
+mal_Mlym,Malayalam,agglutinative,genus/family consensus,"Malayalam, Dravidian"
+mar_Deva,Marathi,fusional,genus/family consensus,"Marathi, Indo-Aryan"
+min_Arab,Minangkabau (Arabic script),isolating,genus/family consensus,"Minangkabau, Malayic Austronesian"
+min_Latn,Minangkabau (Latin script),isolating,genus/family consensus,"Minangkabau, Malayic Austronesian"
+mkd_Cyrl,Macedonian,fusional,genus/family consensus,"Macedonian, Slavic"
+mlt_Latn,Maltese,introflexive,genus/family consensus,"Maltese, Semitic base despite heavy Romance borrowing"
+mni_Beng,Meitei (Bengali script),agglutinative,genus/family consensus,"Meitei, Sino-Tibetan (Kuki-Chin-Meitei), agglutinative verb morphology"
+mos_Latn,Mossi,isolating,genus/family consensus,"Mossi, Gur"
+mri_Latn,Maori,isolating,WALS_20A,Maori; WALS direct: isolating/concatenative
+mya_Mymr,Burmese,isolating,WALS_20A,Burmese; WALS direct: exclusively concatenative but textbook isolating; low synthesis (22A)
+nld_Latn,Dutch,fusional,genus/family consensus,"Dutch, Germanic"
+nno_Latn,Norwegian Nynorsk,fusional,genus/family consensus,"Norwegian Nynorsk, Germanic"
+nob_Latn,Norwegian Bokmal,fusional,genus/family consensus,"Norwegian Bokmal, Germanic"
+npi_Deva,Nepali,fusional,genus/family consensus,"Nepali, Indo-Aryan"
+nso_Latn,Northern Sotho,agglutinative,genus/family consensus,"Northern Sotho, Bantu"
+nus_Latn,Nuer,fusional,WALS_20A,Nuer; WALS genus match Western Nilotic (Lango)=ablaut/concatenative
+nya_Latn,Nyanja,agglutinative,genus/family consensus,"Nyanja, Bantu"
+oci_Latn,Occitan,fusional,genus/family consensus,"Occitan, Romance"
+ory_Orya,Odia,fusional,genus/family consensus,"Odia, Indo-Aryan"
+pag_Latn,Pangasinan,agglutinative,genus/family consensus,"Pangasinan, Philippine Austronesian"
+pan_Guru,Eastern Panjabi,fusional,genus/family consensus,"Eastern Panjabi, Indo-Aryan"
+pap_Latn,Papiamento,isolating,genus/family consensus,Papiamento; prototypically analytic creole
+pbt_Arab,Southern Pashto,fusional,genus/family consensus,"Southern Pashto, Iranian"
+pes_Arab,Western Persian,fusional,WALS_20A,Western Persian; WALS genus match Persian=exclusively concatenative + traditional fusional
+plt_Latn,Plateau Malagasy,agglutinative,WALS_20A,Plateau Malagasy; WALS genus match Malagasy=exclusively concatenative + textbook agglutinative verbal morphology
+pol_Latn,Polish,fusional,genus/family consensus,"Polish, Slavic"
+por_Latn,Portuguese,fusional,genus/family consensus,"Portuguese, Romance"
+prs_Arab,Dari,fusional,genus/family consensus,"Dari, Iranian"
+quy_Latn,Ayacucho Quechua,agglutinative,genus/family consensus,"Ayacucho Quechua, Quechuan; highly agglutinative (not strictly polysynthetic)"
+ron_Latn,Romanian,fusional,genus/family consensus,"Romanian, Romance, retains case marking"
+run_Latn,Rundi,agglutinative,genus/family consensus,"Rundi, Bantu"
+rus_Cyrl,Russian,fusional,WALS_20A,Russian; WALS direct: exclusively concatenative + traditional fusional
+sag_Latn,Sango,isolating,WALS_20A,Sango; WALS direct: exclusively concatenative but textbook analytic Ubangi-based creole/pidgin-origin lingua franca
+san_Deva,Sanskrit,fusional,genus/family consensus,"Sanskrit, classical Indo-Aryan, archetypal fusional case system"
+sat_Olck,Santali,agglutinative,genus/family consensus,"Santali, Munda branch of Austroasiatic; Munda languages are the agglutinative outlier within AA"
+scn_Latn,Sicilian,fusional,genus/family consensus,"Sicilian, Romance"
+shn_Mymr,Shan,isolating,genus/family consensus,"Shan, Tai-Kadai"
+sin_Sinh,Sinhala,fusional,genus/family consensus,"Sinhala, Indo-Aryan"
+slk_Latn,Slovak,fusional,genus/family consensus,"Slovak, Slavic"
+slv_Latn,Slovenian,fusional,genus/family consensus,"Slovenian, Slavic"
+smo_Latn,Samoan,isolating,genus/family consensus,"Samoan, Polynesian, like Maori/Fijian"
+sna_Latn,Shona,agglutinative,genus/family consensus,"Shona, Bantu"
+snd_Arab,Sindhi,fusional,genus/family consensus,"Sindhi, Indo-Aryan"
+som_Latn,Somali,agglutinative,genus/family consensus,"Somali, Cushitic; rich agglutinative nominal/verbal morphology"
+sot_Latn,Southern Sotho,agglutinative,genus/family consensus,"Southern Sotho, Bantu"
+spa_Latn,Spanish,fusional,WALS_20A,Spanish; WALS direct: exclusively concatenative + traditional fusional
+srd_Latn,Sardinian,fusional,genus/family consensus,"Sardinian, Romance"
+srp_Cyrl,Serbian,fusional,genus/family consensus,"Serbian, Slavic"
+ssw_Latn,Swati,agglutinative,genus/family consensus,"Swati, Bantu"
+sun_Latn,Sundanese,isolating,genus/family consensus,"Sundanese, Austronesian"
+swe_Latn,Swedish,fusional,genus/family consensus,"Swedish, Germanic"
+swh_Latn,Swahili,agglutinative,WALS_20A,Swahili; WALS direct: exclusively concatenative + textbook agglutinative noun-class system
+szl_Latn,Silesian,fusional,genus/family consensus,"Silesian, Slavic"
+tam_Taml,Tamil,agglutinative,genus/family consensus,"Tamil, Dravidian"
+taq_Latn,Tamasheq (Latin script),introflexive,genus/family consensus,"Tamasheq, Berber (Tuareg branch); root-and-pattern like other Berber languages"
+taq_Tfng,Tamasheq (Tifinagh script),introflexive,genus/family consensus,"Tamasheq, Berber (Tuareg branch); root-and-pattern like other Berber languages"
+tat_Cyrl,Tatar,agglutinative,genus/family consensus,"Tatar, Turkic"
+tel_Telu,Telugu,agglutinative,genus/family consensus,"Telugu, Dravidian"
+tgk_Cyrl,Tajik,fusional,genus/family consensus,"Tajik, Iranian"
+tgl_Latn,Tagalog,agglutinative,WALS_20A,Tagalog; WALS direct: exclusively concatenative + textbook agglutinative voice system
+tha_Thai,Thai,isolating,WALS_20A,Thai; WALS direct: isolating/concatenative
+tir_Ethi,Tigrinya,introflexive,genus/family consensus,"Tigrinya, Semitic"
+tpi_Latn,Tok Pisin,isolating,genus/family consensus,Tok Pisin; prototypically analytic English-lexifier creole
+tsn_Latn,Tswana,agglutinative,genus/family consensus,"Tswana, Bantu"
+tso_Latn,Tsonga,agglutinative,genus/family consensus,"Tsonga, Bantu"
+tuk_Latn,Turkmen,agglutinative,genus/family consensus,"Turkmen, Turkic"
+tum_Latn,Tumbuka,agglutinative,genus/family consensus,"Tumbuka, Bantu"
+tur_Latn,Turkish,agglutinative,WALS_20A,Turkish; WALS direct: exclusively concatenative + textbook agglutinative
+twi_Latn,Twi,isolating,genus/family consensus,"Twi (Akan), Kwa"
+tzm_Tfng,Central Atlas Tamazight,introflexive,WALS_20A,Central Atlas Tamazight; WALS genus match Berber=ablaut/concatenative
+uig_Arab,Uyghur,agglutinative,genus/family consensus,"Uyghur, Turkic"
+ukr_Cyrl,Ukrainian,fusional,genus/family consensus,"Ukrainian, Slavic"
+umb_Latn,Umbundu,agglutinative,genus/family consensus,"Umbundu, Bantu"
+urd_Arab,Urdu,fusional,genus/family consensus,"Urdu, Indo-Aryan"
+uzn_Latn,Northern Uzbek,agglutinative,genus/family consensus,"Northern Uzbek, Turkic"
+vec_Latn,Venetian,fusional,genus/family consensus,"Venetian, Romance"
+vie_Latn,Vietnamese,isolating,WALS_20A,Vietnamese; WALS direct: exclusively isolating
+war_Latn,Waray,agglutinative,genus/family consensus,"Waray, Philippine Austronesian"
+wol_Latn,Wolof,agglutinative,genus/family consensus,"Wolof, Atlantic Niger-Congo, agglutinative noun-class system"
+xho_Latn,Xhosa,agglutinative,genus/family consensus,"Xhosa, Bantu"
+ydd_Hebr,Eastern Yiddish,fusional,genus/family consensus,"Eastern Yiddish, Germanic"
+yor_Latn,Yoruba,isolating,WALS_20A,Yoruba; WALS direct: tonal/isolating
+yue_Hant,Yue Chinese,isolating,genus/family consensus,"Yue Chinese (Cantonese), Sinitic"
+zho_Hans,Chinese (Simplified),isolating,WALS_20A,Mandarin Chinese; WALS direct: isolating/concatenative
+zho_Hant,Chinese (Traditional),isolating,WALS_20A,Mandarin Chinese; WALS direct: isolating/concatenative
+zsm_Latn,Standard Malay,isolating,genus/family consensus,"Standard Malay, sister of Indonesian"
+zul_Latn,Zulu,agglutinative,WALS_20A,Zulu; WALS direct: exclusively concatenative + textbook agglutinative noun-class system

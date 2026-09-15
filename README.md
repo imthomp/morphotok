@@ -2,10 +2,11 @@
 
 Vocabulary-aligned morphological tokenization for multilingual MT.
 
-Companion code for the thesis *When Does Morpheme-Aware Tokenization Help?
-A Predictive Framework Across Language Types* (Isaac Thompson). Full research
-design lives in `notes/thesis_proposal.md` and `notes/plan.md` in the parent
-[morphology-mt](https://github.com/imthomp) project directory, not in this repo.
+Code and research planning for the thesis *When Does Morpheme-Aware
+Tokenization Help? A Predictive Framework Across Language Types*
+(Isaac Thompson). Full research design lives in `notes/thesis_proposal.md`
+(the shareable proposal) and `notes/plan.md` (the fuller working plan,
+including the GLM-5.2 red-team disposition and open decisions).
 
 **Status: early scaffolding.** Method implementations are stubs pending
 Phase 0 results; API surface below is stable, behavior is not yet.
@@ -36,7 +37,11 @@ alone, no training required, once the underlying predictive framework
 ## Layout
 
 - `morphotok/` — the installable package (this is what `pip install morphotok` ships)
-- `experiments/` — paper-reproduction scripts (data pipeline, training configs, eval), not part of the package
+- `experiments/` — paper-reproduction material, not part of the package:
+  - `scripts/` — analysis scripts (e.g. the NLLB-200 morphological/resource-level classification behind the paper's motivating statistic)
+  - `data/` — raw/intermediate inputs those scripts read
+  - `results/` — SSOT outputs those scripts write (`nllb_morphology_stats.json` and its appendix CSV)
+- `notes/` — research planning docs (`thesis_proposal.md`, `plan.md`)
 - `tests/` — unit tests for `morphotok/`
 
 ## Methods

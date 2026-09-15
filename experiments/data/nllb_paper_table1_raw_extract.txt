@@ -1,0 +1,245 @@
+=== page 12 ===
+Code Language Script F amily Subgrouping 🌐 Res. Specification
+ace_Arabnew Acehnese Arabic Austronesian Malayo-Polynesian  Low North Acehnese
+ace_Latnnew Acehnese Latin Austronesian Malayo-Polynesian  Low North Acehnese
+acm_Arabnew Mesopotamian Arabic Arabic Afro-Asiatic Semitic  Low Baghdadi
+acq_Arabnew T aʽizzi-Adeni Arabic Arabic Afro-Asiatic Semitic  Low
+aeb_Arabnew T unisian Arabic Arabic Afro-Asiatic Semitic  Low Derja
+afr_Latn Afrikaans Latin Indo-European Germanic 🌐 High
+ajp_Arabnew South Levantine Arabic Arabic Afro-Asiatic Semitic  Low Ammani
+aka_Latnnew Akan Latin Atlantic-Congo Kwa Volta-Congo  Low Asante
+amh_Ethi Amharic Geʽez Afro-Asiatic Semitic 🌐 Low Addis Ababa
+apc_Arabnew North Levantine Arabic Arabic Afro-Asiatic Semitic  Low
+arb_Arab Modern Standard Arabic Arabic Afro-Asiatic Semitic 🌐 High
+arb_Latnnew Modern Standard Arabic Latin Afro-Asiatic Semitic  Low
+ars_Arabnew Najdi Arabic Arabic Afro-Asiatic Semitic  Low
+ary_Arabnew Moroccan Arabic Arabic Afro-Asiatic Semitic  Low
+arz_Arabnew Egyptian Arabic Arabic Afro-Asiatic Semitic  Low
+asm_Beng Assamese Bengali Indo-European Indo-Aryan 🌐 Low Eastern
+ast_Latn Asturian Latin Indo-European Italic  Low Central
+awa_Devanew A wadhi Devanagari Indo-European Indo-Aryan  Low Ayodhya
+ayr_Latnnew Central A ymara Latin Aymaran Central Southern Aymara 🌐 Low A ymara La Paz jilata
+azb_Arabnew South Azerbaijani Arabic Turkic Common Turkic  Low Tabrizi
+azj_Latn North Azerbaijani Latin Turkic Common Turkic 🌐 Low Shirvan
+bak_Cyrlnew Bashkir Cyrillic Turkic Common Turkic 🌐 Low Literary
+bam_Latnnew Bambara Latin Mande Western Mande 🌐 Low
+ban_Latnnew Balinese Latin Austronesian Malayo-Polynesian  Low
+bel_Cyrl Belarusian Cyrillic Indo-European Balto-Slavic 🌐 Low Central
+bem_Latnnew Bemba Latin Atlantic-Congo Benue-Congo  Low Central
+ben_Beng Bengali Bengali Indo-European Indo-Aryan 🌐 High Rarhi
+bho_Devanew Bhojpuri Devanagari Indo-European Indo-Aryan 🌐 Low
+bjn_Arabnew Banjar Arabic Austronesian Malayo-Polynesian  Low Banjar Kuala
+bjn_Latnnew Banjar Latin Austronesian Malayo-Polynesian  Low Banjar Kuala
+bod_Tibtnew Standard Tibetan Tibetan Sino-Tibetan Bodic 🌐 Low Lhasa
+bos_Latn Bosnian Latin Indo-European Balto-Slavic 🌐 High
+bug_Latnnew Buginese Latin Austronesian Malayo-Polynesian  Low Bone
+bul_Cyrl Bulgarian Cyrillic Indo-European Balto-Slavic 🌐 High
+cat_Latn Catalan Latin Indo-European Italic 🌐 High
+ceb_Latn Cebuano Latin Austronesian Malayo-Polynesian 🌐 Low
+ces_Latn Czech Latin Indo-European Balto-Slavic 🌐 High
+cjk_Latnnew Chokwe Latin Atlantic-Congo Benue-Congo  Low
+ckb_Arab Central Kurdish Arabic Indo-European Iranian 🌐 Low
+crh_Latnnew Crimean T atar Latin Turkic Common Turkic  Low
+cym_Latn W elsh Latin Indo-European Celtic 🌐 Low Y W yndodeg
+dan_Latn Danish Latin Indo-European Germanic 🌐 High
+deu_Latn German Latin Indo-European Germanic 🌐 High
+dik_Latnnew Southwestern Dinka Latin Nilotic Western Nilotic  Low Rek
+dyu_Latnnew Dyula Latin Mande Western Mande  Low
+dzo_Tibtnew Dzongkha Tibetan Sino-Tibetan Bodic  Low
+ell_Grek Greek Greek Indo-European Graeco-Phrygian 🌐 High
+eng_Latn English Latin Indo-European Germanic 🌐 High
+epo_Latnnew Esperanto Latin Constructed Esperantic 🌐 Low
+est_Latn Estonian Latin Uralic Finnic 🌐 High
+eus_Latnnew Basque Latin Basque – 🌐 High
+ewe_Latnnew Ewe Latin Atlantic-Congo Kwa Volta-Congo 🌐 Low Aŋlo
+fao_Latnnew F aroese Latin Indo-European Germanic 🌐 Low
+fij_Latnnew Fijian Latin Austronesian Malayo-Polynesian 🌐 Low Bau
+fin_Latn Finnish Latin Uralic Finnic 🌐 High
+fon_Latnnew F on Latin Atlantic-Congo Kwa Volta-Congo  Low
+fra_Latn F rench Latin Indo-European Italic 🌐 High
+fur_Latnnew F riulian Latin Indo-European Italic  Low Central
+fuv_Latn Nigerian F ulfulde Latin Atlantic-Congo North-Central Atlantic  Low Sokoto
+gla_Latnnew Scottish Gaelic Latin Indo-European Celtic  Low Northern Hebrides
+13
+
+=== page 13 ===
+Code Language Script F amily Subgrouping 🌐 Res. Specification
+gle_Latn Irish Latin Indo-European Celtic 🌐 Low
+glg_Latn Galician Latin Indo-European Italic 🌐 Low
+grn_Latnnew Guarani Latin Tupian Maweti-Guarani 🌐 Low
+guj_Gujr Gujarati Gujarati Indo-European Indo-Aryan 🌐 Low Amdavadi/Surti
+hat_Latnnew Haitian Creole Latin Indo-European Italic 🌐 Low
+hau_Latn Hausa Latin Afro-Asiatic Chadic 🌐 Low
+heb_Hebr Hebrew Hebrew Afro-Asiatic Semitic 🌐 High
+hin_Deva Hindi Devanagari Indo-European Indo-Aryan 🌐 High
+hne_Devanew Chhattisgarhi Devanagari Indo-European Indo-Aryan  Low
+hrv_Latn Croatian Latin Indo-European Balto-Slavic 🌐 High
+hun_Latn Hungarian Latin Uralic – 🌐 High
+hye_Armn Armenian Armenian Indo-European Armenic 🌐 Low Yerevan
+ibo_Latn Igbo Latin Atlantic-Congo Benue-Congo 🌐 Low Central
+ilo_Latnnew Ilocano Latin Austronesian Malayo-Polynesian 🌐 Low
+ind_Latn Indonesian Latin Austronesian Malayo-Polynesian 🌐 High
+isl_Latn Icelandic Latin Indo-European Germanic 🌐 High
+ita_Latn Italian Latin Indo-European Italic 🌐 High
+jav_Latn Javanese Latin Austronesian Malayo-Polynesian 🌐 Low
+jpn_Jpan Japanese Japanese Japonic Japanesic 🌐 High
+kab_Latnnew Kabyle Latin Afro-Asiatic Berber  Low North Eastern
+kac_Latnnew Jingpho Latin Sino-Tibetan Brahmaputran  Low
+kam_Latn Kamba Latin Atlantic-Congo Benue-Congo  Low Machakos
+kan_Knda Kannada Kannada Dravidian South Dravidian 🌐 Low Central
+kas_Arabnew Kashmiri Arabic Indo-European Indo-Aryan  Low Kishtwari
+kas_Devanew Kashmiri Devanagari Indo-European Indo-Aryan  Low Kishtwari
+kat_Geor Georgian Georgian Kartvelian Georgian-Zan 🌐 Low Kartlian
+knc_Arabnew Central Kanuri Arabic Saharan Western Saharan  Low Yerwa
+knc_Latnnew Central Kanuri Latin Saharan Western Saharan  Low Yerwa
+kaz_Cyrl Kazakh Cyrillic Turkic Common Turkic 🌐 High
+kbp_Latnnew Kabiyè Latin Atlantic-Congo North Volta-Congo  Low K ɛ̀̀wɛ�
+kea_Latnnew Kabuverdianu Latin Indo-European Italic  Low Sotavento
+khm_Khmr Khmer Khmer Austroasiatic Khmeric 🌐 Low Central
+kik_Latnnew Kikuyu Latin Atlantic-Congo Benue-Congo  Low Southern
+kin_Latnnew Kinyarwanda Latin Atlantic-Congo Benue-Congo 🌐 Low
+kir_Cyrl Kyrgyz Cyrillic Turkic Common Turkic 🌐 Low Northern
+kmb_Latnnew Kimbundu Latin Atlantic-Congo Benue-Congo  Low
+kmr_Latnnew Northern Kurdish Latin Indo-European Iranian 🌐 Low
+kon_Latnnew Kikongo Latin Atlantic-Congo Benue-Congo  Low
+kor_Hang Korean Hangul Koreanic Korean 🌐 High
+lao_Laoo Lao Lao Tai-Kadai Kam-Tai 🌐 Low Vientiane
+lij_Latnnew Ligurian Latin Indo-European Italic  Low Zeneise
+lim_Latnnew Limburgish Latin Indo-European Germanic  Low Maastrichtian
+lin_Latn Lingala Latin Atlantic-Congo Benue-Congo 🌐 Low
+lit_Latn Lithuanian Latin Indo-European Balto-Slavic 🌐 High
+lmo_Latnnew Lombard Latin Indo-European Italic  Low Western
+ltg_Latnnew Latgalian Latin Indo-European Balto-Slavic  Low Central
+ltz_Latn Luxembourgish Latin Indo-European Germanic 🌐 Low
+lua_Latnnew Luba-Kasai Latin Atlantic-Congo Benue-Congo  Low
+lug_Latn Ganda Latin Atlantic-Congo Benue-Congo 🌐 Low
+luo_Latn Luo Latin Nilotic Western Nilotic  Low
+lus_Latnnew Mizo Latin Sino-Tibetan Kuki-Chin-Naga 🌐 Low Aizawl
+lvs_Latn Standard Latvian Latin Indo-European Balto-Slavic 🌐 High
+mag_Devanew Magahi Devanagari Indo-European Indo-Aryan  Low Gaya
+mai_Devanew Maithili Devanagari Indo-European Indo-Aryan 🌐 Low
+mal_Mlym Malayalam Malayalam Dravidian South Dravidian 🌐 Low
+mar_Deva Marathi Devanagari Indo-European Indo-Aryan 🌐 Low Varhadi
+min_Arabnew Minangkabau Arabic Austronesian Malayo-Polynesian  Low Agam-T anah Datar
+min_Latnnew Minangkabau Latin Austronesian Malayo-Polynesian  Low Agam-T anah Datar
+mkd_Cyrl Macedonian Cyrillic Indo-European Balto-Slavic 🌐 High
+plt_Latnnew Plateau Malagasy Latin Austronesian Malayo-Polynesian 🌐 Low Merina
+mlt_Latn Maltese Latin Afro-Asiatic Semitic 🌐 High
+14
+
+=== page 14 ===
+Code Language Script F amily Subgrouping 🌐 Res. Specification
+mni_Bengnew Meitei Bengali Sino-Tibetan Kuki-Chin-Naga  Low
+khk_Cyrl Halh Mongolian Cyrillic Mongolic-Khitan Mongolic 🌐 Low
+mos_Latnnew Mossi Latin Atlantic-Congo North Volta-Congo  Low Ouagadougou
+mri_Latn Maori Latin Austronesian Malayo-Polynesian 🌐 Low W aikato-Ngapuhi
+mya_Mymr Burmese Myanmar Sino-Tibetan Burmo-Qiangic 🌐 Low Mandalay-Y angon
+nld_Latn Dutch Latin Indo-European Germanic 🌐 High
+nno_Latnnew Norwegian Nynorsk Latin Indo-European Germanic  Low
+nob_Latn Norwegian Bokmål Latin Indo-European Germanic 🌐 Low
+npi_Deva Nepali Devanagari Indo-European Indo-Aryan 🌐 Low Eastern
+nso_Latn Northern Sotho Latin Atlantic-Congo Benue-Congo 🌐 Low
+nus_Latnnew Nuer Latin Nilotic Western Nilotic  Low
+nya_Latn Nyanja Latin Atlantic-Congo Benue-Congo 🌐 Low
+oci_Latn Occitan Latin Indo-European Italic  Low
+gaz_Latnnew W est Central Oromo Latin Afro-Asiatic Cushitic 🌐 Low
+ory_Orya Odia Oriya Indo-European Indo-Aryan 🌐 Low Baleswari (Northern)
+pag_Latnnew Pangasinan Latin Austronesian Malayo-Polynesian  Low
+pan_Guru Eastern Panjabi Gurmukhi Indo-European Indo-Aryan 🌐 Low Majhi
+pap_Latnnew Papiamento Latin Indo-European Italic  Low Römer-Maduro-Jonis
+pes_Arab W estern Persian Arabic Indo-European Iranian 🌐 High
+pol_Latn Polish Latin Indo-European Balto-Slavic 🌐 High
+por_Latn Portuguese Latin Indo-European Italic 🌐 High Brazil
+prs_Arabnew Dari Arabic Indo-European Iranian 🌐 Low Kabuli
+pbt_Arab Southern Pashto Arabic Indo-European Iranian 🌐 Low Literary
+quy_Latnnew A yacucho Quechua Latin Quechuan Chinchay 🌐 Low Southern Quechua
+ron_Latn Romanian Latin Indo-European Italic 🌐 High
+run_Latnnew Rundi Latin Atlantic-Congo Benue-Congo  Low
+rus_Cyrl Russian Cyrillic Indo-European Balto-Slavic 🌐 High
+sag_Latnnew Sango Latin Atlantic-Congo North Volta-Congo  Low
+san_Devanew Sanskrit Devanagari Indo-European Indo-Aryan 🌐 Low
+sat_Olcknew Santali Ol Chiki Austroasiatic Mundaic  Low
+scn_Latnnew Sicilian Latin Indo-European Italic  Low Literary Sicilian
+shn_Mymrnew Shan Myanmar Tai-Kadai Kam-Tai  Low
+sin_Sinhnew Sinhala Sinhala Indo-European Indo-Aryan 🌐 Low
+slk_Latn Slovak Latin Indo-European Balto-Slavic 🌐 High
+slv_Latnnew Slovenian Latin Indo-European Balto-Slavic 🌐 High
+smo_Latnnew Samoan Latin Austronesian Malayo-Polynesian 🌐 Low
+sna_Latn Shona Latin Atlantic-Congo Benue-Congo 🌐 Low
+snd_Arab Sindhi Arabic Indo-European Indo-Aryan 🌐 Low Vicholi
+som_Latn Somali Latin Afro-Asiatic Cushitic 🌐 Low Nsom
+sot_Latnnew Southern Sotho Latin Atlantic-Congo Benue-Congo 🌐 High
+spa_Latn Spanish Latin Indo-European Italic 🌐 High Latin American
+als_Latnnew T osk Albanian Latin Indo-European Albanian 🌐 High
+srd_Latnnew Sardinian Latin Indo-European Italic  Low Logudorese and Campidanese
+srp_Cyrl Serbian Cyrillic Indo-European Balto-Slavic 🌐 Low
+ssw_Latnnew Swati Latin Atlantic-Congo Benue-Congo  Low
+sun_Latnnew Sundanese Latin Austronesian Malayo-Polynesian 🌐 Low
+swe_Latn Swedish Latin Indo-European Germanic 🌐 High
+swh_Latn Swahili Latin Atlantic-Congo Benue-Congo 🌐 High Kiunguja
+szl_Latnnew Silesian Latin Indo-European Balto-Slavic  Low
+tam_Taml T amil Tamil Dravidian South Dravidian 🌐 Low Chennai
+tat_Cyrlnew T atar Cyrillic Turkic Common Turkic 🌐 Low Central and Middle
+tel_Telu T elugu Telugu Dravidian South Dravidian 🌐 Low Coastal
+tgk_Cyrl T ajik Cyrillic Indo-European Iranian 🌐 Low
+tgl_Latn T agalog Latin Austronesian Malayo-Polynesian 🌐 High
+tha_Thai Thai Thai Tai-Kadai Kam-Tai 🌐 High
+tir_Ethinew Tigrinya Geʽez Afro-Asiatic Semitic 🌐 Low
+taq_Latnnew T amasheq Latin Afro-Asiatic Berber  Low Kal Ansar
+taq_Tfngnew T amasheq Tifinagh Afro-Asiatic Berber  Low Kal Ansar
+tpi_Latnnew T ok Pisin Latin Indo-European Germanic  Low
+tsn_Latnnew T swana Latin Atlantic-Congo Benue-Congo  High Sehurutshe
+tso_Latnnew T songa Latin Atlantic-Congo Benue-Congo 🌐 Low
+15
+
+=== page 15 ===
+Code Language Script F amily Subgrouping 🌐 Res. Specification
+tuk_Latnnew T urkmen Latin Turkic Common Turkic 🌐 Low Teke
+tum_Latnnew T umbuka Latin Atlantic-Congo Benue-Congo  Low Rumphi
+tur_Latn T urkish Latin Turkic Common Turkic 🌐 High
+twi_Latnnew T wi Latin Atlantic-Congo Kwa Volta-Congo 🌐 Low Akuapem
+tzm_Tfngnew Central Atlas T amazight Tifinagh Afro-Asiatic Berber  Low
+uig_Arabnew Uyghur Arabic Turkic Common Turkic 🌐 Low
+ukr_Cyrl Ukrainian Cyrillic Indo-European Balto-Slavic 🌐 High
+umb_Latn Umbundu Latin Atlantic-Congo Benue-Congo  Low
+urd_Arab Urdu Arabic Indo-European Indo-Aryan 🌐 Low Lashkari
+uzn_Latn Northern Uzbek Latin Turkic Common Turkic 🌐 High
+vec_Latnnew V enetian Latin Indo-European Italic  Low Venice
+vie_Latn Vietnamese Latin Austroasiatic Vietic 🌐 High
+war_Latnnew W aray Latin Austronesian Malayo-Polynesian  Low Tacloban
+wol_Latn W olof Latin Atlantic-Congo North-Central Atlantic  Low Dakkar
+xho_Latn Xhosa Latin Atlantic-Congo Benue-Congo 🌐 High Ngqika
+ydd_Hebrnew Eastern Yiddish Hebrew Indo-European Germanic 🌐 Low Hasidic
+yor_Latn Y oruba Latin Atlantic-Congo Benue-Congo 🌐 Low Ọyọ and Ibadan
+yue_Hantnew Y ue Chinese Han (Traditional) Sino-Tibetan Sinitic 🌐 Low
+zho_Hans Chinese Han (Simplified) Sino-Tibetan Sinitic 🌐 High
+zho_Hant Chinese Han (Traditional) Sino-Tibetan Sinitic 🌐 High
+zsm_Latn Standard Malay Latin Austronesian Malayo-Polynesian 🌐 High
+zul_Latn Zulu Latin Atlantic-Congo Benue-Congo 🌐 High
+Table 1: 204 Languages of No Language Left Behind: We display the languageCode, language name,Script,
+and languageFamily. The symbol 🌐 indicates machine translation support by Google and/or Microsoft, whereas
+indicates support by neither.Res. indicates if we classify the language as high or low-resource.Specification
+contains, if available, additional information on the language variant collected inFlores-200. The superscriptnew
+indicates new languages added toFlores-200 compared to Flores-101.
+as part of a community request process.3 Next, we solicited lists of languages spoken in
+various regions by native speakers, focusing particularly on African languages—a category of
+languages that have historically been underrepresented in translation efforts (Nekoto et al.,
+2020). We then examined language coverage in multiple existing datasets in the natural
+language processing community, paying focused attention on training datasets without
+accompanying evaluation datasets. Finally, we considered the adoption and usage of each
+language by looking at the approximate number of native speakers and other community-level
+variables relevant to our work.
+Next, for each of the language candidates, we partnered with linguists from various
+specialized language service providers to understand if each of these languages has a stan-
+dardized written form. We did this because having a reliable, high-quality evaluation
+dataset is critical to accelerated experimental progress. However, prioritizing languages with
+fairly standardized written forms has notable downsides (see Appendix A). For one, many
+languages have natural variations and are being written in different standards or scripts in
+different regions. For instance, languages such as Fulah include several distinct varieties and
+languages such as Kashmiri and Central Kanuri contain multiple scripts in common use.
+Systematically documenting these dimensions helped us assess how we could best support
+multiple variants of different languages (such as languages with multiple writing systems or
+natural variation).
+3. https://meta.wikimedia.org/wiki/Language_proposal_policy
+16
+

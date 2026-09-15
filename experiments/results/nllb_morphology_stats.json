@@ -1,0 +1,3139 @@
+{
+  "nllb_morphology_stats": {
+    "generated_by": "scripts/count_nllb_morphological_complexity.py",
+    "definition_of_complex": [
+      "agglutinative",
+      "fusional",
+      "introflexive",
+      "polysynthetic"
+    ],
+    "definition_note": "complex = everything except isolating/analytic; see COMPLEX_TYPES in script to change",
+    "raw_204_flores_entries": {
+      "total_languages": 204,
+      "counts_by_type": {
+        "agglutinative": 70,
+        "fusional": 74,
+        "introflexive": 18,
+        "isolating": 42,
+        "polysynthetic": 0,
+        "unclassified": 0
+      },
+      "n_unclassified": 0,
+      "n_classified": 204,
+      "n_morphologically_complex": 162,
+      "pct_complex_of_all": 79.4,
+      "pct_complex_of_classified": 79.4
+    },
+    "collapsed_by_base_iso639_3_code": {
+      "total_languages": 196,
+      "counts_by_type": {
+        "agglutinative": 69,
+        "fusional": 73,
+        "introflexive": 16,
+        "isolating": 38,
+        "polysynthetic": 0,
+        "unclassified": 0
+      },
+      "n_unclassified": 0,
+      "n_classified": 196,
+      "n_morphologically_complex": 158,
+      "pct_complex_of_all": 80.6,
+      "pct_complex_of_classified": 80.6
+    },
+    "headline_number_caveat": "NLLB-200's marketed '200 languages' does not exactly match either the 204 raw FLORES-200 entries or our 196-entry base-code collapse; see script docstring. Use collapsed_by_base_iso639_3_code as the closer proxy to '200 languages', but disclose n=196 (or n=204), not 200.",
+    "per_language": [
+      {
+        "name": "Acehnese (Arabic script)",
+        "flores_code": "ace_Arab",
+        "base_code": "ace",
+        "morph_type": "isolating",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Acehnese, Malayo-Chamic Austronesian"
+      },
+      {
+        "name": "Acehnese (Latin script)",
+        "flores_code": "ace_Latn",
+        "base_code": "ace",
+        "morph_type": "isolating",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Acehnese, Malayo-Chamic Austronesian"
+      },
+      {
+        "name": "Mesopotamian Arabic",
+        "flores_code": "acm_Arab",
+        "base_code": "acm",
+        "morph_type": "introflexive",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Mesopotamian Arabic, Semitic"
+      },
+      {
+        "name": "Ta'izzi-Adeni Arabic",
+        "flores_code": "acq_Arab",
+        "base_code": "acq",
+        "morph_type": "introflexive",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Ta'izzi-Adeni Arabic, Semitic"
+      },
+      {
+        "name": "Tunisian Arabic",
+        "flores_code": "aeb_Arab",
+        "base_code": "aeb",
+        "morph_type": "introflexive",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Tunisian Arabic, Semitic"
+      },
+      {
+        "name": "Afrikaans",
+        "flores_code": "afr_Latn",
+        "base_code": "afr",
+        "morph_type": "isolating",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Afrikaans; most analytic Germanic language, lost nearly all inflection"
+      },
+      {
+        "name": "South Levantine Arabic",
+        "flores_code": "ajp_Arab",
+        "base_code": "ajp",
+        "morph_type": "introflexive",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "South Levantine Arabic, Semitic"
+      },
+      {
+        "name": "Akan",
+        "flores_code": "aka_Latn",
+        "base_code": "aka",
+        "morph_type": "isolating",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Akan, Kwa, analytic/tonal"
+      },
+      {
+        "name": "Amharic",
+        "flores_code": "amh_Ethi",
+        "base_code": "amh",
+        "morph_type": "introflexive",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Amharic, Semitic, templatic + agglutinative affixation"
+      },
+      {
+        "name": "North Levantine Arabic",
+        "flores_code": "apc_Arab",
+        "base_code": "apc",
+        "morph_type": "introflexive",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "North Levantine Arabic, Semitic"
+      },
+      {
+        "name": "Modern Standard Arabic",
+        "flores_code": "arb_Arab",
+        "base_code": "arb",
+        "morph_type": "introflexive",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Modern Standard Arabic; WALS genus match Arabic (Egyptian)=ablaut/concatenative"
+      },
+      {
+        "name": "Modern Standard Arabic (Romanized)",
+        "flores_code": "arb_Latn",
+        "base_code": "arb",
+        "morph_type": "introflexive",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Modern Standard Arabic; WALS genus match Arabic (Egyptian)=ablaut/concatenative"
+      },
+      {
+        "name": "Najdi Arabic",
+        "flores_code": "ars_Arab",
+        "base_code": "ars",
+        "morph_type": "introflexive",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Najdi Arabic, Semitic"
+      },
+      {
+        "name": "Moroccan Arabic",
+        "flores_code": "ary_Arab",
+        "base_code": "ary",
+        "morph_type": "introflexive",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Moroccan Arabic, Semitic"
+      },
+      {
+        "name": "Egyptian Arabic",
+        "flores_code": "arz_Arab",
+        "base_code": "arz",
+        "morph_type": "introflexive",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Egyptian Arabic; WALS direct: ablaut/concatenative"
+      },
+      {
+        "name": "Assamese",
+        "flores_code": "asm_Beng",
+        "base_code": "asm",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Assamese, Indo-Aryan"
+      },
+      {
+        "name": "Asturian",
+        "flores_code": "ast_Latn",
+        "base_code": "ast",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Asturian, Romance"
+      },
+      {
+        "name": "Awadhi",
+        "flores_code": "awa_Deva",
+        "base_code": "awa",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Awadhi, Indo-Aryan"
+      },
+      {
+        "name": "Central Aymara",
+        "flores_code": "ayr_Latn",
+        "base_code": "ayr",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Central Aymara, Aymaran; highly agglutinative"
+      },
+      {
+        "name": "South Azerbaijani",
+        "flores_code": "azb_Arab",
+        "base_code": "azb",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "South Azerbaijani, Turkic"
+      },
+      {
+        "name": "North Azerbaijani",
+        "flores_code": "azj_Latn",
+        "base_code": "azj",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "North Azerbaijani, Turkic"
+      },
+      {
+        "name": "Bashkir",
+        "flores_code": "bak_Cyrl",
+        "base_code": "bak",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Bashkir, Turkic"
+      },
+      {
+        "name": "Bambara",
+        "flores_code": "bam_Latn",
+        "base_code": "bam",
+        "morph_type": "isolating",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Bambara, Mande, prototypically isolating"
+      },
+      {
+        "name": "Balinese",
+        "flores_code": "ban_Latn",
+        "base_code": "ban",
+        "morph_type": "isolating",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Balinese, Austronesian"
+      },
+      {
+        "name": "Belarusian",
+        "flores_code": "bel_Cyrl",
+        "base_code": "bel",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Belarusian, Slavic"
+      },
+      {
+        "name": "Bemba",
+        "flores_code": "bem_Latn",
+        "base_code": "bem",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Bemba, Bantu"
+      },
+      {
+        "name": "Bengali",
+        "flores_code": "ben_Beng",
+        "base_code": "ben",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Bengali, Indo-Aryan"
+      },
+      {
+        "name": "Bhojpuri",
+        "flores_code": "bho_Deva",
+        "base_code": "bho",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Bhojpuri, Indo-Aryan"
+      },
+      {
+        "name": "Banjar (Arabic script)",
+        "flores_code": "bjn_Arab",
+        "base_code": "bjn",
+        "morph_type": "isolating",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Banjar, Malayic Austronesian"
+      },
+      {
+        "name": "Banjar (Latin script)",
+        "flores_code": "bjn_Latn",
+        "base_code": "bjn",
+        "morph_type": "isolating",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Banjar, Malayic Austronesian"
+      },
+      {
+        "name": "Standard Tibetan",
+        "flores_code": "bod_Tibt",
+        "base_code": "bod",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Standard Tibetan; agglutinative case/verb particles"
+      },
+      {
+        "name": "Bosnian",
+        "flores_code": "bos_Latn",
+        "base_code": "bos",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Bosnian, Slavic"
+      },
+      {
+        "name": "Buginese",
+        "flores_code": "bug_Latn",
+        "base_code": "bug",
+        "morph_type": "isolating",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Buginese, Austronesian"
+      },
+      {
+        "name": "Bulgarian",
+        "flores_code": "bul_Cyrl",
+        "base_code": "bul",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Bulgarian, Slavic (lost case, but verb morphology remains fusional)"
+      },
+      {
+        "name": "Catalan",
+        "flores_code": "cat_Latn",
+        "base_code": "cat",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Catalan, Romance"
+      },
+      {
+        "name": "Cebuano",
+        "flores_code": "ceb_Latn",
+        "base_code": "ceb",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Cebuano, Philippine Austronesian"
+      },
+      {
+        "name": "Czech",
+        "flores_code": "ces_Latn",
+        "base_code": "ces",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Czech, Slavic"
+      },
+      {
+        "name": "Chokwe",
+        "flores_code": "cjk_Latn",
+        "base_code": "cjk",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Chokwe, Bantu"
+      },
+      {
+        "name": "Central Kurdish",
+        "flores_code": "ckb_Arab",
+        "base_code": "ckb",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Central Kurdish (Sorani), Iranian"
+      },
+      {
+        "name": "Crimean Tatar",
+        "flores_code": "crh_Latn",
+        "base_code": "crh",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Crimean Tatar, Turkic"
+      },
+      {
+        "name": "Welsh",
+        "flores_code": "cym_Latn",
+        "base_code": "cym",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Welsh, Celtic"
+      },
+      {
+        "name": "Danish",
+        "flores_code": "dan_Latn",
+        "base_code": "dan",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Danish, Germanic"
+      },
+      {
+        "name": "German",
+        "flores_code": "deu_Latn",
+        "base_code": "deu",
+        "morph_type": "fusional",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "German; WALS direct concatenative + traditional fusional case/gender system"
+      },
+      {
+        "name": "Southwestern Dinka",
+        "flores_code": "dik_Latn",
+        "base_code": "dik",
+        "morph_type": "fusional",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Southwestern Dinka; WALS genus match Western Nilotic (Lango)=ablaut/concatenative"
+      },
+      {
+        "name": "Dyula",
+        "flores_code": "dyu_Latn",
+        "base_code": "dyu",
+        "morph_type": "isolating",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Dyula, Mande"
+      },
+      {
+        "name": "Dzongkha",
+        "flores_code": "dzo_Tibt",
+        "base_code": "dzo",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Dzongkha, Bodish, agglutinative like Tibetan"
+      },
+      {
+        "name": "Greek",
+        "flores_code": "ell_Grek",
+        "base_code": "ell",
+        "morph_type": "fusional",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Greek; WALS direct: exclusively concatenative + traditional fusional"
+      },
+      {
+        "name": "English",
+        "flores_code": "eng_Latn",
+        "base_code": "eng",
+        "morph_type": "isolating",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "English; most analytic Germanic language, minimal inflectional synthesis"
+      },
+      {
+        "name": "Esperanto",
+        "flores_code": "epo_Latn",
+        "base_code": "epo",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Esperanto; designed as a regular agglutinative language"
+      },
+      {
+        "name": "Estonian",
+        "flores_code": "est_Latn",
+        "base_code": "est",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Estonian, Uralic"
+      },
+      {
+        "name": "Basque",
+        "flores_code": "eus_Latn",
+        "base_code": "eus",
+        "morph_type": "agglutinative",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Basque; WALS direct: exclusively concatenative + textbook (highly) agglutinative"
+      },
+      {
+        "name": "Ewe",
+        "flores_code": "ewe_Latn",
+        "base_code": "ewe",
+        "morph_type": "isolating",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Ewe, Kwa, analytic/tonal"
+      },
+      {
+        "name": "Faroese",
+        "flores_code": "fao_Latn",
+        "base_code": "fao",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Faroese, Germanic"
+      },
+      {
+        "name": "Fijian",
+        "flores_code": "fij_Latn",
+        "base_code": "fij",
+        "morph_type": "isolating",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Fijian; WALS direct: exclusively isolating"
+      },
+      {
+        "name": "Finnish",
+        "flores_code": "fin_Latn",
+        "base_code": "fin",
+        "morph_type": "agglutinative",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Finnish; WALS direct: exclusively concatenative + textbook agglutinative"
+      },
+      {
+        "name": "Fon",
+        "flores_code": "fon_Latn",
+        "base_code": "fon",
+        "morph_type": "isolating",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Fon, Gbe/Kwa, analytic/tonal"
+      },
+      {
+        "name": "French",
+        "flores_code": "fra_Latn",
+        "base_code": "fra",
+        "morph_type": "fusional",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "French; WALS direct: exclusively concatenative + traditional fusional"
+      },
+      {
+        "name": "Friulian",
+        "flores_code": "fur_Latn",
+        "base_code": "fur",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Friulian, Romance"
+      },
+      {
+        "name": "Nigerian Fulfulde",
+        "flores_code": "fuv_Latn",
+        "base_code": "fuv",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Nigerian Fulfulde, Atlantic Niger-Congo, agglutinative noun-class system"
+      },
+      {
+        "name": "Scottish Gaelic",
+        "flores_code": "gla_Latn",
+        "base_code": "gla",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Scottish Gaelic, Celtic"
+      },
+      {
+        "name": "Irish",
+        "flores_code": "gle_Latn",
+        "base_code": "gle",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Irish, Celtic"
+      },
+      {
+        "name": "Galician",
+        "flores_code": "glg_Latn",
+        "base_code": "glg",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Galician, Romance"
+      },
+      {
+        "name": "Guarani",
+        "flores_code": "grn_Latn",
+        "base_code": "grn",
+        "morph_type": "agglutinative",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Guarani; WALS direct: exclusively concatenative; textbook agglutinative w/ some polysynthetic traits"
+      },
+      {
+        "name": "Gujarati",
+        "flores_code": "guj_Gujr",
+        "base_code": "guj",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Gujarati, Indo-Aryan"
+      },
+      {
+        "name": "Haitian Creole",
+        "flores_code": "hat_Latn",
+        "base_code": "hat",
+        "morph_type": "isolating",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Haitian Creole; prototypically analytic creole"
+      },
+      {
+        "name": "Hausa",
+        "flores_code": "hau_Latn",
+        "base_code": "hau",
+        "morph_type": "isolating",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Hausa; WALS direct: exclusively isolating"
+      },
+      {
+        "name": "Hebrew",
+        "flores_code": "heb_Hebr",
+        "base_code": "heb",
+        "morph_type": "introflexive",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Hebrew (Modern); WALS direct: ablaut/concatenative"
+      },
+      {
+        "name": "Hindi",
+        "flores_code": "hin_Deva",
+        "base_code": "hin",
+        "morph_type": "fusional",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Hindi; WALS direct: exclusively concatenative + traditional fusional"
+      },
+      {
+        "name": "Chhattisgarhi",
+        "flores_code": "hne_Deva",
+        "base_code": "hne",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Chhattisgarhi, Indo-Aryan"
+      },
+      {
+        "name": "Croatian",
+        "flores_code": "hrv_Latn",
+        "base_code": "hrv",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Croatian, Slavic"
+      },
+      {
+        "name": "Hungarian",
+        "flores_code": "hun_Latn",
+        "base_code": "hun",
+        "morph_type": "agglutinative",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Hungarian; WALS direct: exclusively concatenative + textbook agglutinative"
+      },
+      {
+        "name": "Armenian",
+        "flores_code": "hye_Armn",
+        "base_code": "hye",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Armenian; classical IE but agglutinative-leaning nominal case system"
+      },
+      {
+        "name": "Igbo",
+        "flores_code": "ibo_Latn",
+        "base_code": "ibo",
+        "morph_type": "isolating",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Igbo, Igboid, analytic/tonal"
+      },
+      {
+        "name": "Ilocano",
+        "flores_code": "ilo_Latn",
+        "base_code": "ilo",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Ilocano, Philippine Austronesian"
+      },
+      {
+        "name": "Indonesian",
+        "flores_code": "ind_Latn",
+        "base_code": "ind",
+        "morph_type": "isolating",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Indonesian; WALS direct: exclusively isolating"
+      },
+      {
+        "name": "Icelandic",
+        "flores_code": "isl_Latn",
+        "base_code": "isl",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Icelandic, Germanic, retains rich case system"
+      },
+      {
+        "name": "Italian",
+        "flores_code": "ita_Latn",
+        "base_code": "ita",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Italian, Romance"
+      },
+      {
+        "name": "Javanese",
+        "flores_code": "jav_Latn",
+        "base_code": "jav",
+        "morph_type": "isolating",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Javanese, Austronesian"
+      },
+      {
+        "name": "Japanese",
+        "flores_code": "jpn_Jpan",
+        "base_code": "jpn",
+        "morph_type": "agglutinative",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Japanese; WALS direct: exclusively concatenative + textbook agglutinative"
+      },
+      {
+        "name": "Kabyle",
+        "flores_code": "kab_Latn",
+        "base_code": "kab",
+        "morph_type": "introflexive",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Kabyle; WALS genus match Berber (Middle Atlas)=ablaut/concatenative"
+      },
+      {
+        "name": "Jingpho",
+        "flores_code": "kac_Latn",
+        "base_code": "kac",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Jingpho, Sino-Tibetan, agglutinative"
+      },
+      {
+        "name": "Kamba",
+        "flores_code": "kam_Latn",
+        "base_code": "kam",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Kamba, Bantu"
+      },
+      {
+        "name": "Kannada",
+        "flores_code": "kan_Knda",
+        "base_code": "kan",
+        "morph_type": "agglutinative",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Kannada; WALS direct: exclusively concatenative + textbook agglutinative"
+      },
+      {
+        "name": "Kashmiri (Arabic script)",
+        "flores_code": "kas_Arab",
+        "base_code": "kas",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Kashmiri, Indo-Aryan (Dardic branch)"
+      },
+      {
+        "name": "Kashmiri (Devanagari script)",
+        "flores_code": "kas_Deva",
+        "base_code": "kas",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Kashmiri, Indo-Aryan (Dardic branch)"
+      },
+      {
+        "name": "Georgian",
+        "flores_code": "kat_Geor",
+        "base_code": "kat",
+        "morph_type": "agglutinative",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Georgian; WALS direct: exclusively concatenative + textbook agglutinative w/ polypersonal agreement"
+      },
+      {
+        "name": "Central Kanuri (Arabic script)",
+        "flores_code": "knc_Arab",
+        "base_code": "knc",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Central Kanuri, Saharan (Nilo-Saharan), agglutinative"
+      },
+      {
+        "name": "Central Kanuri (Latin script)",
+        "flores_code": "knc_Latn",
+        "base_code": "knc",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Central Kanuri, Saharan (Nilo-Saharan), agglutinative"
+      },
+      {
+        "name": "Kazakh",
+        "flores_code": "kaz_Cyrl",
+        "base_code": "kaz",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Kazakh, Turkic"
+      },
+      {
+        "name": "Kabiyah",
+        "flores_code": "kbp_Latn",
+        "base_code": "kbp",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Kabiyah, Gur, noun-class agglutinative morphology"
+      },
+      {
+        "name": "Kabuverdianu",
+        "flores_code": "kea_Latn",
+        "base_code": "kea",
+        "morph_type": "isolating",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Kabuverdianu; prototypically analytic Portuguese-lexifier creole"
+      },
+      {
+        "name": "Khmer",
+        "flores_code": "khm_Khmr",
+        "base_code": "khm",
+        "morph_type": "isolating",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Khmer, Austroasiatic (Mon-Khmer)"
+      },
+      {
+        "name": "Kikuyu",
+        "flores_code": "kik_Latn",
+        "base_code": "kik",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Kikuyu, Bantu"
+      },
+      {
+        "name": "Kinyarwanda",
+        "flores_code": "kin_Latn",
+        "base_code": "kin",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Kinyarwanda, Bantu"
+      },
+      {
+        "name": "Kyrgyz",
+        "flores_code": "kir_Cyrl",
+        "base_code": "kir",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Kyrgyz, Turkic"
+      },
+      {
+        "name": "Kimbundu",
+        "flores_code": "kmb_Latn",
+        "base_code": "kmb",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Kimbundu, Bantu"
+      },
+      {
+        "name": "Northern Kurdish",
+        "flores_code": "kmr_Latn",
+        "base_code": "kmr",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Northern Kurdish (Kurmanji), Iranian"
+      },
+      {
+        "name": "Kikongo",
+        "flores_code": "kon_Latn",
+        "base_code": "kon",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Kikongo, Bantu"
+      },
+      {
+        "name": "Korean",
+        "flores_code": "kor_Hang",
+        "base_code": "kor",
+        "morph_type": "agglutinative",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Korean; WALS direct: exclusively concatenative + textbook agglutinative"
+      },
+      {
+        "name": "Lao",
+        "flores_code": "lao_Laoo",
+        "base_code": "lao",
+        "morph_type": "isolating",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Lao, Tai-Kadai"
+      },
+      {
+        "name": "Ligurian",
+        "flores_code": "lij_Latn",
+        "base_code": "lij",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Ligurian, Romance"
+      },
+      {
+        "name": "Limburgish",
+        "flores_code": "lim_Latn",
+        "base_code": "lim",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Limburgish, Germanic"
+      },
+      {
+        "name": "Lingala",
+        "flores_code": "lin_Latn",
+        "base_code": "lin",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Lingala, Bantu"
+      },
+      {
+        "name": "Lithuanian",
+        "flores_code": "lit_Latn",
+        "base_code": "lit",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Lithuanian, Baltic, archaic case system"
+      },
+      {
+        "name": "Lombard",
+        "flores_code": "lmo_Latn",
+        "base_code": "lmo",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Lombard, Romance"
+      },
+      {
+        "name": "Latgalian",
+        "flores_code": "ltg_Latn",
+        "base_code": "ltg",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Latgalian, Baltic"
+      },
+      {
+        "name": "Luxembourgish",
+        "flores_code": "ltz_Latn",
+        "base_code": "ltz",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Luxembourgish, Germanic"
+      },
+      {
+        "name": "Luba-Kasai",
+        "flores_code": "lua_Latn",
+        "base_code": "lua",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Luba-Kasai, Bantu"
+      },
+      {
+        "name": "Ganda",
+        "flores_code": "lug_Latn",
+        "base_code": "lug",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Ganda, Bantu"
+      },
+      {
+        "name": "Luo",
+        "flores_code": "luo_Latn",
+        "base_code": "luo",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Luo, Nilotic (Western Nilotic), agglutinative verbal morphology"
+      },
+      {
+        "name": "Mizo",
+        "flores_code": "lus_Latn",
+        "base_code": "lus",
+        "morph_type": "isolating",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Mizo, Kuki-Chin, tonal/isolating like other Kuki-Chin languages"
+      },
+      {
+        "name": "Standard Latvian",
+        "flores_code": "lvs_Latn",
+        "base_code": "lvs",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Standard Latvian, Baltic"
+      },
+      {
+        "name": "Magahi",
+        "flores_code": "mag_Deva",
+        "base_code": "mag",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Magahi, Indo-Aryan"
+      },
+      {
+        "name": "Maithili",
+        "flores_code": "mai_Deva",
+        "base_code": "mai",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Maithili, Indo-Aryan"
+      },
+      {
+        "name": "Malayalam",
+        "flores_code": "mal_Mlym",
+        "base_code": "mal",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Malayalam, Dravidian"
+      },
+      {
+        "name": "Marathi",
+        "flores_code": "mar_Deva",
+        "base_code": "mar",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Marathi, Indo-Aryan"
+      },
+      {
+        "name": "Minangkabau (Arabic script)",
+        "flores_code": "min_Arab",
+        "base_code": "min",
+        "morph_type": "isolating",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Minangkabau, Malayic Austronesian"
+      },
+      {
+        "name": "Minangkabau (Latin script)",
+        "flores_code": "min_Latn",
+        "base_code": "min",
+        "morph_type": "isolating",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Minangkabau, Malayic Austronesian"
+      },
+      {
+        "name": "Macedonian",
+        "flores_code": "mkd_Cyrl",
+        "base_code": "mkd",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Macedonian, Slavic"
+      },
+      {
+        "name": "Plateau Malagasy",
+        "flores_code": "plt_Latn",
+        "base_code": "plt",
+        "morph_type": "agglutinative",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Plateau Malagasy; WALS genus match Malagasy=exclusively concatenative + textbook agglutinative verbal morphology"
+      },
+      {
+        "name": "Maltese",
+        "flores_code": "mlt_Latn",
+        "base_code": "mlt",
+        "morph_type": "introflexive",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Maltese, Semitic base despite heavy Romance borrowing"
+      },
+      {
+        "name": "Meitei (Bengali script)",
+        "flores_code": "mni_Beng",
+        "base_code": "mni",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Meitei, Sino-Tibetan (Kuki-Chin-Meitei), agglutinative verb morphology"
+      },
+      {
+        "name": "Halh Mongolian",
+        "flores_code": "khk_Cyrl",
+        "base_code": "khk",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Halh Mongolian; WALS genus Khalkha=exclusively concatenative + textbook agglutinative"
+      },
+      {
+        "name": "Mossi",
+        "flores_code": "mos_Latn",
+        "base_code": "mos",
+        "morph_type": "isolating",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Mossi, Gur"
+      },
+      {
+        "name": "Maori",
+        "flores_code": "mri_Latn",
+        "base_code": "mri",
+        "morph_type": "isolating",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Maori; WALS direct: isolating/concatenative"
+      },
+      {
+        "name": "Burmese",
+        "flores_code": "mya_Mymr",
+        "base_code": "mya",
+        "morph_type": "isolating",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Burmese; WALS direct: exclusively concatenative but textbook isolating; low synthesis (22A)"
+      },
+      {
+        "name": "Dutch",
+        "flores_code": "nld_Latn",
+        "base_code": "nld",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Dutch, Germanic"
+      },
+      {
+        "name": "Norwegian Nynorsk",
+        "flores_code": "nno_Latn",
+        "base_code": "nno",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Norwegian Nynorsk, Germanic"
+      },
+      {
+        "name": "Norwegian Bokmal",
+        "flores_code": "nob_Latn",
+        "base_code": "nob",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Norwegian Bokmal, Germanic"
+      },
+      {
+        "name": "Nepali",
+        "flores_code": "npi_Deva",
+        "base_code": "npi",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Nepali, Indo-Aryan"
+      },
+      {
+        "name": "Northern Sotho",
+        "flores_code": "nso_Latn",
+        "base_code": "nso",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Northern Sotho, Bantu"
+      },
+      {
+        "name": "Nuer",
+        "flores_code": "nus_Latn",
+        "base_code": "nus",
+        "morph_type": "fusional",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Nuer; WALS genus match Western Nilotic (Lango)=ablaut/concatenative"
+      },
+      {
+        "name": "Nyanja",
+        "flores_code": "nya_Latn",
+        "base_code": "nya",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Nyanja, Bantu"
+      },
+      {
+        "name": "Occitan",
+        "flores_code": "oci_Latn",
+        "base_code": "oci",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Occitan, Romance"
+      },
+      {
+        "name": "West Central Oromo",
+        "flores_code": "gaz_Latn",
+        "base_code": "gaz",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "West Central Oromo, Cushitic"
+      },
+      {
+        "name": "Odia",
+        "flores_code": "ory_Orya",
+        "base_code": "ory",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Odia, Indo-Aryan"
+      },
+      {
+        "name": "Pangasinan",
+        "flores_code": "pag_Latn",
+        "base_code": "pag",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Pangasinan, Philippine Austronesian"
+      },
+      {
+        "name": "Eastern Panjabi",
+        "flores_code": "pan_Guru",
+        "base_code": "pan",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Eastern Panjabi, Indo-Aryan"
+      },
+      {
+        "name": "Papiamento",
+        "flores_code": "pap_Latn",
+        "base_code": "pap",
+        "morph_type": "isolating",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Papiamento; prototypically analytic creole"
+      },
+      {
+        "name": "Western Persian",
+        "flores_code": "pes_Arab",
+        "base_code": "pes",
+        "morph_type": "fusional",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Western Persian; WALS genus match Persian=exclusively concatenative + traditional fusional"
+      },
+      {
+        "name": "Polish",
+        "flores_code": "pol_Latn",
+        "base_code": "pol",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Polish, Slavic"
+      },
+      {
+        "name": "Portuguese",
+        "flores_code": "por_Latn",
+        "base_code": "por",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Portuguese, Romance"
+      },
+      {
+        "name": "Dari",
+        "flores_code": "prs_Arab",
+        "base_code": "prs",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Dari, Iranian"
+      },
+      {
+        "name": "Southern Pashto",
+        "flores_code": "pbt_Arab",
+        "base_code": "pbt",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Southern Pashto, Iranian"
+      },
+      {
+        "name": "Ayacucho Quechua",
+        "flores_code": "quy_Latn",
+        "base_code": "quy",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Ayacucho Quechua, Quechuan; highly agglutinative (not strictly polysynthetic)"
+      },
+      {
+        "name": "Romanian",
+        "flores_code": "ron_Latn",
+        "base_code": "ron",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Romanian, Romance, retains case marking"
+      },
+      {
+        "name": "Rundi",
+        "flores_code": "run_Latn",
+        "base_code": "run",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Rundi, Bantu"
+      },
+      {
+        "name": "Russian",
+        "flores_code": "rus_Cyrl",
+        "base_code": "rus",
+        "morph_type": "fusional",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Russian; WALS direct: exclusively concatenative + traditional fusional"
+      },
+      {
+        "name": "Sango",
+        "flores_code": "sag_Latn",
+        "base_code": "sag",
+        "morph_type": "isolating",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Sango; WALS direct: exclusively concatenative but textbook analytic Ubangi-based creole/pidgin-origin lingua franca"
+      },
+      {
+        "name": "Sanskrit",
+        "flores_code": "san_Deva",
+        "base_code": "san",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Sanskrit, classical Indo-Aryan, archetypal fusional case system"
+      },
+      {
+        "name": "Santali",
+        "flores_code": "sat_Olck",
+        "base_code": "sat",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Santali, Munda branch of Austroasiatic; Munda languages are the agglutinative outlier within AA"
+      },
+      {
+        "name": "Sicilian",
+        "flores_code": "scn_Latn",
+        "base_code": "scn",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Sicilian, Romance"
+      },
+      {
+        "name": "Shan",
+        "flores_code": "shn_Mymr",
+        "base_code": "shn",
+        "morph_type": "isolating",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Shan, Tai-Kadai"
+      },
+      {
+        "name": "Sinhala",
+        "flores_code": "sin_Sinh",
+        "base_code": "sin",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Sinhala, Indo-Aryan"
+      },
+      {
+        "name": "Slovak",
+        "flores_code": "slk_Latn",
+        "base_code": "slk",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Slovak, Slavic"
+      },
+      {
+        "name": "Slovenian",
+        "flores_code": "slv_Latn",
+        "base_code": "slv",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Slovenian, Slavic"
+      },
+      {
+        "name": "Samoan",
+        "flores_code": "smo_Latn",
+        "base_code": "smo",
+        "morph_type": "isolating",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Samoan, Polynesian, like Maori/Fijian"
+      },
+      {
+        "name": "Shona",
+        "flores_code": "sna_Latn",
+        "base_code": "sna",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Shona, Bantu"
+      },
+      {
+        "name": "Sindhi",
+        "flores_code": "snd_Arab",
+        "base_code": "snd",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Sindhi, Indo-Aryan"
+      },
+      {
+        "name": "Somali",
+        "flores_code": "som_Latn",
+        "base_code": "som",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Somali, Cushitic; rich agglutinative nominal/verbal morphology"
+      },
+      {
+        "name": "Southern Sotho",
+        "flores_code": "sot_Latn",
+        "base_code": "sot",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Southern Sotho, Bantu"
+      },
+      {
+        "name": "Spanish",
+        "flores_code": "spa_Latn",
+        "base_code": "spa",
+        "morph_type": "fusional",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Spanish; WALS direct: exclusively concatenative + traditional fusional"
+      },
+      {
+        "name": "Tosk Albanian",
+        "flores_code": "als_Latn",
+        "base_code": "als",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Tosk Albanian"
+      },
+      {
+        "name": "Sardinian",
+        "flores_code": "srd_Latn",
+        "base_code": "srd",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Sardinian, Romance"
+      },
+      {
+        "name": "Serbian",
+        "flores_code": "srp_Cyrl",
+        "base_code": "srp",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Serbian, Slavic"
+      },
+      {
+        "name": "Swati",
+        "flores_code": "ssw_Latn",
+        "base_code": "ssw",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Swati, Bantu"
+      },
+      {
+        "name": "Sundanese",
+        "flores_code": "sun_Latn",
+        "base_code": "sun",
+        "morph_type": "isolating",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Sundanese, Austronesian"
+      },
+      {
+        "name": "Swedish",
+        "flores_code": "swe_Latn",
+        "base_code": "swe",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Swedish, Germanic"
+      },
+      {
+        "name": "Swahili",
+        "flores_code": "swh_Latn",
+        "base_code": "swh",
+        "morph_type": "agglutinative",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Swahili; WALS direct: exclusively concatenative + textbook agglutinative noun-class system"
+      },
+      {
+        "name": "Silesian",
+        "flores_code": "szl_Latn",
+        "base_code": "szl",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Silesian, Slavic"
+      },
+      {
+        "name": "Tamil",
+        "flores_code": "tam_Taml",
+        "base_code": "tam",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Tamil, Dravidian"
+      },
+      {
+        "name": "Tatar",
+        "flores_code": "tat_Cyrl",
+        "base_code": "tat",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Tatar, Turkic"
+      },
+      {
+        "name": "Telugu",
+        "flores_code": "tel_Telu",
+        "base_code": "tel",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Telugu, Dravidian"
+      },
+      {
+        "name": "Tajik",
+        "flores_code": "tgk_Cyrl",
+        "base_code": "tgk",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Tajik, Iranian"
+      },
+      {
+        "name": "Tagalog",
+        "flores_code": "tgl_Latn",
+        "base_code": "tgl",
+        "morph_type": "agglutinative",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Tagalog; WALS direct: exclusively concatenative + textbook agglutinative voice system"
+      },
+      {
+        "name": "Thai",
+        "flores_code": "tha_Thai",
+        "base_code": "tha",
+        "morph_type": "isolating",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Thai; WALS direct: isolating/concatenative"
+      },
+      {
+        "name": "Tigrinya",
+        "flores_code": "tir_Ethi",
+        "base_code": "tir",
+        "morph_type": "introflexive",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Tigrinya, Semitic"
+      },
+      {
+        "name": "Tamasheq (Latin script)",
+        "flores_code": "taq_Latn",
+        "base_code": "taq",
+        "morph_type": "introflexive",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Tamasheq, Berber (Tuareg branch); root-and-pattern like other Berber languages"
+      },
+      {
+        "name": "Tamasheq (Tifinagh script)",
+        "flores_code": "taq_Tfng",
+        "base_code": "taq",
+        "morph_type": "introflexive",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Tamasheq, Berber (Tuareg branch); root-and-pattern like other Berber languages"
+      },
+      {
+        "name": "Tok Pisin",
+        "flores_code": "tpi_Latn",
+        "base_code": "tpi",
+        "morph_type": "isolating",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Tok Pisin; prototypically analytic English-lexifier creole"
+      },
+      {
+        "name": "Tswana",
+        "flores_code": "tsn_Latn",
+        "base_code": "tsn",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Tswana, Bantu"
+      },
+      {
+        "name": "Tsonga",
+        "flores_code": "tso_Latn",
+        "base_code": "tso",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Tsonga, Bantu"
+      },
+      {
+        "name": "Turkmen",
+        "flores_code": "tuk_Latn",
+        "base_code": "tuk",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Turkmen, Turkic"
+      },
+      {
+        "name": "Tumbuka",
+        "flores_code": "tum_Latn",
+        "base_code": "tum",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Tumbuka, Bantu"
+      },
+      {
+        "name": "Turkish",
+        "flores_code": "tur_Latn",
+        "base_code": "tur",
+        "morph_type": "agglutinative",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Turkish; WALS direct: exclusively concatenative + textbook agglutinative"
+      },
+      {
+        "name": "Twi",
+        "flores_code": "twi_Latn",
+        "base_code": "twi",
+        "morph_type": "isolating",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Twi (Akan), Kwa"
+      },
+      {
+        "name": "Central Atlas Tamazight",
+        "flores_code": "tzm_Tfng",
+        "base_code": "tzm",
+        "morph_type": "introflexive",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Central Atlas Tamazight; WALS genus match Berber=ablaut/concatenative"
+      },
+      {
+        "name": "Uyghur",
+        "flores_code": "uig_Arab",
+        "base_code": "uig",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Uyghur, Turkic"
+      },
+      {
+        "name": "Ukrainian",
+        "flores_code": "ukr_Cyrl",
+        "base_code": "ukr",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Ukrainian, Slavic"
+      },
+      {
+        "name": "Umbundu",
+        "flores_code": "umb_Latn",
+        "base_code": "umb",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Umbundu, Bantu"
+      },
+      {
+        "name": "Urdu",
+        "flores_code": "urd_Arab",
+        "base_code": "urd",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Urdu, Indo-Aryan"
+      },
+      {
+        "name": "Northern Uzbek",
+        "flores_code": "uzn_Latn",
+        "base_code": "uzn",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Northern Uzbek, Turkic"
+      },
+      {
+        "name": "Venetian",
+        "flores_code": "vec_Latn",
+        "base_code": "vec",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Venetian, Romance"
+      },
+      {
+        "name": "Vietnamese",
+        "flores_code": "vie_Latn",
+        "base_code": "vie",
+        "morph_type": "isolating",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Vietnamese; WALS direct: exclusively isolating"
+      },
+      {
+        "name": "Waray",
+        "flores_code": "war_Latn",
+        "base_code": "war",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Waray, Philippine Austronesian"
+      },
+      {
+        "name": "Wolof",
+        "flores_code": "wol_Latn",
+        "base_code": "wol",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Wolof, Atlantic Niger-Congo, agglutinative noun-class system"
+      },
+      {
+        "name": "Xhosa",
+        "flores_code": "xho_Latn",
+        "base_code": "xho",
+        "morph_type": "agglutinative",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Xhosa, Bantu"
+      },
+      {
+        "name": "Eastern Yiddish",
+        "flores_code": "ydd_Hebr",
+        "base_code": "ydd",
+        "morph_type": "fusional",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Eastern Yiddish, Germanic"
+      },
+      {
+        "name": "Yoruba",
+        "flores_code": "yor_Latn",
+        "base_code": "yor",
+        "morph_type": "isolating",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Yoruba; WALS direct: tonal/isolating"
+      },
+      {
+        "name": "Yue Chinese",
+        "flores_code": "yue_Hant",
+        "base_code": "yue",
+        "morph_type": "isolating",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Yue Chinese (Cantonese), Sinitic"
+      },
+      {
+        "name": "Chinese (Simplified)",
+        "flores_code": "zho_Hans",
+        "base_code": "zho",
+        "morph_type": "isolating",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Mandarin Chinese; WALS direct: isolating/concatenative"
+      },
+      {
+        "name": "Chinese (Traditional)",
+        "flores_code": "zho_Hant",
+        "base_code": "zho",
+        "morph_type": "isolating",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Mandarin Chinese; WALS direct: isolating/concatenative"
+      },
+      {
+        "name": "Standard Malay",
+        "flores_code": "zsm_Latn",
+        "base_code": "zsm",
+        "morph_type": "isolating",
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Standard Malay, sister of Indonesian"
+      },
+      {
+        "name": "Zulu",
+        "flores_code": "zul_Latn",
+        "base_code": "zul",
+        "morph_type": "agglutinative",
+        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
+        "note": "Zulu; WALS direct: exclusively concatenative + textbook agglutinative noun-class system"
+      }
+    ],
+    "sources": [
+      "Team, NLLB, et al. (2022). 'No Language Left Behind: Scaling Human-Centered Machine Translation.' arXiv:2207.04672.",
+      "facebookresearch/flores, flores200/README.md (language table), fetched 2026-08-19.",
+      "Dryer, Matthew S. & Haspelmath, Martin (eds.) 2013. WALS Online v2020.3, Chapter 20A 'Fusion of Selected Inflectional Formatives'. https://wals.info/chapter/20",
+      "Comrie, B. (1989). Language Universals and Linguistic Typology, 2nd ed.",
+      "Velupillai, V. (2012). An Introduction to Linguistic Typology."
+    ],
+    "limitations": [
+      "WALS 20A distinguishes fusion type (isolating/concatenative/tonal/ablaut) but NOT agglutinative vs. fusional among concatenative languages; that distinction (WALS 21A, exponence) was not fetched for this pass, so most agglutinative/fusional calls rely on family-level typological consensus, not a WALS datapoint for that specific language.",
+      "Only entries tagged with a WALS_20A source string were checked against an actual WALS datapoint; all others are genus/family-level consensus calls made by an LLM agent and are not independently human-verified.",
+      "Mapudungun (arn), Nahuatl (nah), and Inuktitut (ikt), cited in plan.md as primary polysynthetic languages, are NOT present in the official FLORES-200 list used here.",
+      "Categorical typology is a simplification; several languages (English, Georgian, Basque, Bengali) are borderline/mixed and reasonable typologists could disagree with the single label assigned here."
+    ]
+  },
+  "resource_x_morphology_crossing": {
+    "generated_by": "scripts/cross_nllb_resource_morphology.py",
+    "resource_source": "NLLB paper (Team et al. 2022), Table 1, pp.12-15 of arxiv.org/pdf/2207.04672 -- extracted via pypdf 2026-08-19. Parsed 150 Low / 54 High exactly matches the paper's own stated total, a real cross-check on the extraction.",
+    "n_total_matched": 204,
+    "n_unmatched": 0,
+    "unmatched_codes": [],
+    "n_low_resource": 150,
+    "n_low_resource_and_complex": 116,
+    "pct_low_resource_that_is_complex": 77.3,
+    "n_high_resource": 54,
+    "n_high_resource_and_complex": 46,
+    "pct_high_resource_that_is_complex": 85.2,
+    "n_complex_and_low_resource_of_all_204": 116,
+    "pct_of_all_204_that_is_complex_and_low_resource": 56.9,
+    "headline_finding": "116 of 204 FLORES-200 languages (56.9%) are BOTH morphologically complex AND low-resource by NLLB's own <1M-bitext threshold -- this is the population a vocabulary-aligned tokenization method could plausibly help, and it does NOT reduce to the raw '80.6% complex' base-rate stat, which conflates high- and low-resource languages and is largely explained by the global typological base rate (WALS 20A: ~75% of all languages non-isolating), not anything NLLB-specific.",
+    "counterintuitive_note": "Complexity rate is actually slightly HIGHER among NLLB's 54 high-resource languages (85.2%) than among its 150 low-resource languages (77.3%). Complex morphology is NOT disproportionately concentrated in NLLB's low-resource tier -- so the 'who cares' argument should rest on the raw count (116 languages) and the tokenization-quality mechanism, not on a claim that complexity and low-resource-ness are correlated within NLLB-200, because they aren't (if anything, mildly anti-correlated in this sample).",
+    "per_language": [
+      {
+        "flores_code": "ace_Arab",
+        "base_code": "ace",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "ace_Latn",
+        "base_code": "ace",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "acm_Arab",
+        "base_code": "acm",
+        "morph_type": "introflexive",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "acq_Arab",
+        "base_code": "acq",
+        "morph_type": "introflexive",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "aeb_Arab",
+        "base_code": "aeb",
+        "morph_type": "introflexive",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "afr_Latn",
+        "base_code": "afr",
+        "morph_type": "isolating",
+        "resource_level": "High",
+        "is_complex": false
+      },
+      {
+        "flores_code": "ajp_Arab",
+        "base_code": "ajp",
+        "morph_type": "introflexive",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "aka_Latn",
+        "base_code": "aka",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "amh_Ethi",
+        "base_code": "amh",
+        "morph_type": "introflexive",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "apc_Arab",
+        "base_code": "apc",
+        "morph_type": "introflexive",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "arb_Arab",
+        "base_code": "arb",
+        "morph_type": "introflexive",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "arb_Latn",
+        "base_code": "arb",
+        "morph_type": "introflexive",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "ars_Arab",
+        "base_code": "ars",
+        "morph_type": "introflexive",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "ary_Arab",
+        "base_code": "ary",
+        "morph_type": "introflexive",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "arz_Arab",
+        "base_code": "arz",
+        "morph_type": "introflexive",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "asm_Beng",
+        "base_code": "asm",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "ast_Latn",
+        "base_code": "ast",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "awa_Deva",
+        "base_code": "awa",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "ayr_Latn",
+        "base_code": "ayr",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "azb_Arab",
+        "base_code": "azb",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "azj_Latn",
+        "base_code": "azj",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "bak_Cyrl",
+        "base_code": "bak",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "bam_Latn",
+        "base_code": "bam",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "ban_Latn",
+        "base_code": "ban",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "bel_Cyrl",
+        "base_code": "bel",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "bem_Latn",
+        "base_code": "bem",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "ben_Beng",
+        "base_code": "ben",
+        "morph_type": "fusional",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "bho_Deva",
+        "base_code": "bho",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "bjn_Arab",
+        "base_code": "bjn",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "bjn_Latn",
+        "base_code": "bjn",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "bod_Tibt",
+        "base_code": "bod",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "bos_Latn",
+        "base_code": "bos",
+        "morph_type": "fusional",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "bug_Latn",
+        "base_code": "bug",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "bul_Cyrl",
+        "base_code": "bul",
+        "morph_type": "fusional",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "cat_Latn",
+        "base_code": "cat",
+        "morph_type": "fusional",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "ceb_Latn",
+        "base_code": "ceb",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "ces_Latn",
+        "base_code": "ces",
+        "morph_type": "fusional",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "cjk_Latn",
+        "base_code": "cjk",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "ckb_Arab",
+        "base_code": "ckb",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "crh_Latn",
+        "base_code": "crh",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "cym_Latn",
+        "base_code": "cym",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "dan_Latn",
+        "base_code": "dan",
+        "morph_type": "fusional",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "deu_Latn",
+        "base_code": "deu",
+        "morph_type": "fusional",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "dik_Latn",
+        "base_code": "dik",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "dyu_Latn",
+        "base_code": "dyu",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "dzo_Tibt",
+        "base_code": "dzo",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "ell_Grek",
+        "base_code": "ell",
+        "morph_type": "fusional",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "eng_Latn",
+        "base_code": "eng",
+        "morph_type": "isolating",
+        "resource_level": "High",
+        "is_complex": false
+      },
+      {
+        "flores_code": "epo_Latn",
+        "base_code": "epo",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "est_Latn",
+        "base_code": "est",
+        "morph_type": "agglutinative",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "eus_Latn",
+        "base_code": "eus",
+        "morph_type": "agglutinative",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "ewe_Latn",
+        "base_code": "ewe",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "fao_Latn",
+        "base_code": "fao",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "fij_Latn",
+        "base_code": "fij",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "fin_Latn",
+        "base_code": "fin",
+        "morph_type": "agglutinative",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "fon_Latn",
+        "base_code": "fon",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "fra_Latn",
+        "base_code": "fra",
+        "morph_type": "fusional",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "fur_Latn",
+        "base_code": "fur",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "fuv_Latn",
+        "base_code": "fuv",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "gla_Latn",
+        "base_code": "gla",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "gle_Latn",
+        "base_code": "gle",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "glg_Latn",
+        "base_code": "glg",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "grn_Latn",
+        "base_code": "grn",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "guj_Gujr",
+        "base_code": "guj",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "hat_Latn",
+        "base_code": "hat",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "hau_Latn",
+        "base_code": "hau",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "heb_Hebr",
+        "base_code": "heb",
+        "morph_type": "introflexive",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "hin_Deva",
+        "base_code": "hin",
+        "morph_type": "fusional",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "hne_Deva",
+        "base_code": "hne",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "hrv_Latn",
+        "base_code": "hrv",
+        "morph_type": "fusional",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "hun_Latn",
+        "base_code": "hun",
+        "morph_type": "agglutinative",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "hye_Armn",
+        "base_code": "hye",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "ibo_Latn",
+        "base_code": "ibo",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "ilo_Latn",
+        "base_code": "ilo",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "ind_Latn",
+        "base_code": "ind",
+        "morph_type": "isolating",
+        "resource_level": "High",
+        "is_complex": false
+      },
+      {
+        "flores_code": "isl_Latn",
+        "base_code": "isl",
+        "morph_type": "fusional",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "ita_Latn",
+        "base_code": "ita",
+        "morph_type": "fusional",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "jav_Latn",
+        "base_code": "jav",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "jpn_Jpan",
+        "base_code": "jpn",
+        "morph_type": "agglutinative",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "kab_Latn",
+        "base_code": "kab",
+        "morph_type": "introflexive",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "kac_Latn",
+        "base_code": "kac",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "kam_Latn",
+        "base_code": "kam",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "kan_Knda",
+        "base_code": "kan",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "kas_Arab",
+        "base_code": "kas",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "kas_Deva",
+        "base_code": "kas",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "kat_Geor",
+        "base_code": "kat",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "knc_Arab",
+        "base_code": "knc",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "knc_Latn",
+        "base_code": "knc",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "kaz_Cyrl",
+        "base_code": "kaz",
+        "morph_type": "agglutinative",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "kbp_Latn",
+        "base_code": "kbp",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "kea_Latn",
+        "base_code": "kea",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "khm_Khmr",
+        "base_code": "khm",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "kik_Latn",
+        "base_code": "kik",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "kin_Latn",
+        "base_code": "kin",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "kir_Cyrl",
+        "base_code": "kir",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "kmb_Latn",
+        "base_code": "kmb",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "kmr_Latn",
+        "base_code": "kmr",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "kon_Latn",
+        "base_code": "kon",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "kor_Hang",
+        "base_code": "kor",
+        "morph_type": "agglutinative",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "lao_Laoo",
+        "base_code": "lao",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "lij_Latn",
+        "base_code": "lij",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "lim_Latn",
+        "base_code": "lim",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "lin_Latn",
+        "base_code": "lin",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "lit_Latn",
+        "base_code": "lit",
+        "morph_type": "fusional",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "lmo_Latn",
+        "base_code": "lmo",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "ltg_Latn",
+        "base_code": "ltg",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "ltz_Latn",
+        "base_code": "ltz",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "lua_Latn",
+        "base_code": "lua",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "lug_Latn",
+        "base_code": "lug",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "luo_Latn",
+        "base_code": "luo",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "lus_Latn",
+        "base_code": "lus",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "lvs_Latn",
+        "base_code": "lvs",
+        "morph_type": "fusional",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "mag_Deva",
+        "base_code": "mag",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "mai_Deva",
+        "base_code": "mai",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "mal_Mlym",
+        "base_code": "mal",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "mar_Deva",
+        "base_code": "mar",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "min_Arab",
+        "base_code": "min",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "min_Latn",
+        "base_code": "min",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "mkd_Cyrl",
+        "base_code": "mkd",
+        "morph_type": "fusional",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "plt_Latn",
+        "base_code": "plt",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "mlt_Latn",
+        "base_code": "mlt",
+        "morph_type": "introflexive",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "mni_Beng",
+        "base_code": "mni",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "khk_Cyrl",
+        "base_code": "khk",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "mos_Latn",
+        "base_code": "mos",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "mri_Latn",
+        "base_code": "mri",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "mya_Mymr",
+        "base_code": "mya",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "nld_Latn",
+        "base_code": "nld",
+        "morph_type": "fusional",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "nno_Latn",
+        "base_code": "nno",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "nob_Latn",
+        "base_code": "nob",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "npi_Deva",
+        "base_code": "npi",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "nso_Latn",
+        "base_code": "nso",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "nus_Latn",
+        "base_code": "nus",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "nya_Latn",
+        "base_code": "nya",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "oci_Latn",
+        "base_code": "oci",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "gaz_Latn",
+        "base_code": "gaz",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "ory_Orya",
+        "base_code": "ory",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "pag_Latn",
+        "base_code": "pag",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "pan_Guru",
+        "base_code": "pan",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "pap_Latn",
+        "base_code": "pap",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "pes_Arab",
+        "base_code": "pes",
+        "morph_type": "fusional",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "pol_Latn",
+        "base_code": "pol",
+        "morph_type": "fusional",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "por_Latn",
+        "base_code": "por",
+        "morph_type": "fusional",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "prs_Arab",
+        "base_code": "prs",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "pbt_Arab",
+        "base_code": "pbt",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "quy_Latn",
+        "base_code": "quy",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "ron_Latn",
+        "base_code": "ron",
+        "morph_type": "fusional",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "run_Latn",
+        "base_code": "run",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "rus_Cyrl",
+        "base_code": "rus",
+        "morph_type": "fusional",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "sag_Latn",
+        "base_code": "sag",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "san_Deva",
+        "base_code": "san",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "sat_Olck",
+        "base_code": "sat",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "scn_Latn",
+        "base_code": "scn",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "shn_Mymr",
+        "base_code": "shn",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "sin_Sinh",
+        "base_code": "sin",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "slk_Latn",
+        "base_code": "slk",
+        "morph_type": "fusional",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "slv_Latn",
+        "base_code": "slv",
+        "morph_type": "fusional",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "smo_Latn",
+        "base_code": "smo",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "sna_Latn",
+        "base_code": "sna",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "snd_Arab",
+        "base_code": "snd",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "som_Latn",
+        "base_code": "som",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "sot_Latn",
+        "base_code": "sot",
+        "morph_type": "agglutinative",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "spa_Latn",
+        "base_code": "spa",
+        "morph_type": "fusional",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "als_Latn",
+        "base_code": "als",
+        "morph_type": "fusional",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "srd_Latn",
+        "base_code": "srd",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "srp_Cyrl",
+        "base_code": "srp",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "ssw_Latn",
+        "base_code": "ssw",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "sun_Latn",
+        "base_code": "sun",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "swe_Latn",
+        "base_code": "swe",
+        "morph_type": "fusional",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "swh_Latn",
+        "base_code": "swh",
+        "morph_type": "agglutinative",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "szl_Latn",
+        "base_code": "szl",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "tam_Taml",
+        "base_code": "tam",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "tat_Cyrl",
+        "base_code": "tat",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "tel_Telu",
+        "base_code": "tel",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "tgk_Cyrl",
+        "base_code": "tgk",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "tgl_Latn",
+        "base_code": "tgl",
+        "morph_type": "agglutinative",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "tha_Thai",
+        "base_code": "tha",
+        "morph_type": "isolating",
+        "resource_level": "High",
+        "is_complex": false
+      },
+      {
+        "flores_code": "tir_Ethi",
+        "base_code": "tir",
+        "morph_type": "introflexive",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "taq_Latn",
+        "base_code": "taq",
+        "morph_type": "introflexive",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "taq_Tfng",
+        "base_code": "taq",
+        "morph_type": "introflexive",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "tpi_Latn",
+        "base_code": "tpi",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "tsn_Latn",
+        "base_code": "tsn",
+        "morph_type": "agglutinative",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "tso_Latn",
+        "base_code": "tso",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "tuk_Latn",
+        "base_code": "tuk",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "tum_Latn",
+        "base_code": "tum",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "tur_Latn",
+        "base_code": "tur",
+        "morph_type": "agglutinative",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "twi_Latn",
+        "base_code": "twi",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "tzm_Tfng",
+        "base_code": "tzm",
+        "morph_type": "introflexive",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "uig_Arab",
+        "base_code": "uig",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "ukr_Cyrl",
+        "base_code": "ukr",
+        "morph_type": "fusional",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "umb_Latn",
+        "base_code": "umb",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "urd_Arab",
+        "base_code": "urd",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "uzn_Latn",
+        "base_code": "uzn",
+        "morph_type": "agglutinative",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "vec_Latn",
+        "base_code": "vec",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "vie_Latn",
+        "base_code": "vie",
+        "morph_type": "isolating",
+        "resource_level": "High",
+        "is_complex": false
+      },
+      {
+        "flores_code": "war_Latn",
+        "base_code": "war",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "wol_Latn",
+        "base_code": "wol",
+        "morph_type": "agglutinative",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "xho_Latn",
+        "base_code": "xho",
+        "morph_type": "agglutinative",
+        "resource_level": "High",
+        "is_complex": true
+      },
+      {
+        "flores_code": "ydd_Hebr",
+        "base_code": "ydd",
+        "morph_type": "fusional",
+        "resource_level": "Low",
+        "is_complex": true
+      },
+      {
+        "flores_code": "yor_Latn",
+        "base_code": "yor",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "yue_Hant",
+        "base_code": "yue",
+        "morph_type": "isolating",
+        "resource_level": "Low",
+        "is_complex": false
+      },
+      {
+        "flores_code": "zho_Hans",
+        "base_code": "zho",
+        "morph_type": "isolating",
+        "resource_level": "High",
+        "is_complex": false
+      },
+      {
+        "flores_code": "zho_Hant",
+        "base_code": "zho",
+        "morph_type": "isolating",
+        "resource_level": "High",
+        "is_complex": false
+      },
+      {
+        "flores_code": "zsm_Latn",
+        "base_code": "zsm",
+        "morph_type": "isolating",
+        "resource_level": "High",
+        "is_complex": false
+      },
+      {
+        "flores_code": "zul_Latn",
+        "base_code": "zul",
+        "morph_type": "agglutinative",
+        "resource_level": "High",
+        "is_complex": true
+      }
+    ]
+  }
+}
