@@ -1,0 +1,68 @@
+{
+  "gold_vocabulary_density": {
+    "fin": {
+      "generated_by": "scripts/gold_vocabulary_density.py",
+      "gold_source": "MorphyNet inflectional.v1.tsv (/tmp/morphynet/fi.inflectional.v1.tsv)",
+      "nllb_vocab_size": 256204,
+      "n_words_with_segmentation": 349846,
+      "max_lines_used": null,
+      "pooled_stem_and_affix": {
+        "morpheme_types_total": 17841,
+        "morpheme_types_in_nllb_vocab": 410,
+        "density_by_type": 0.023,
+        "morpheme_tokens_total": 699692,
+        "morpheme_tokens_in_nllb_vocab": 260461,
+        "density_by_token": 0.3723
+      },
+      "stems_only": {
+        "morpheme_types_total": 17733,
+        "morpheme_types_in_nllb_vocab": 343,
+        "density_by_type": 0.0193,
+        "morpheme_tokens_total": 349846,
+        "morpheme_tokens_in_nllb_vocab": 8626,
+        "density_by_token": 0.0247
+      },
+      "affixes_only": {
+        "morpheme_types_total": 108,
+        "morpheme_types_in_nllb_vocab": 67,
+        "density_by_type": 0.6204,
+        "morpheme_tokens_total": 349846,
+        "morpheme_tokens_in_nllb_vocab": 251835,
+        "density_by_token": 0.7198
+      },
+      "note": "affixes_only is the density figure most relevant to the vocabulary-density hypothesis; pooled conflates lexical stem coverage with affix coverage."
+    },
+    "rus": {
+      "generated_by": "scripts/gold_vocabulary_density.py",
+      "gold_source": "MorphyNet inflectional.v1.tsv (/tmp/morphynet/rus.inflectional.v1.tsv)",
+      "nllb_vocab_size": 256204,
+      "n_words_with_segmentation": 1259289,
+      "max_lines_used": null,
+      "pooled_stem_and_affix": {
+        "morpheme_types_total": 34602,
+        "morpheme_types_in_nllb_vocab": 904,
+        "density_by_type": 0.0261,
+        "morpheme_tokens_total": 4036621,
+        "morpheme_tokens_in_nllb_vocab": 2261349,
+        "density_by_token": 0.5602
+      },
+      "stems_only": {
+        "morpheme_types_total": 34397,
+        "morpheme_types_in_nllb_vocab": 805,
+        "density_by_type": 0.0234,
+        "morpheme_tokens_total": 1259289,
+        "morpheme_tokens_in_nllb_vocab": 12579,
+        "density_by_token": 0.01
+      },
+      "affixes_only": {
+        "morpheme_types_total": 215,
+        "morpheme_types_in_nllb_vocab": 108,
+        "density_by_type": 0.5023,
+        "morpheme_tokens_total": 2777332,
+        "morpheme_tokens_in_nllb_vocab": 2248770,
+        "density_by_token": 0.8097
+      },
+      "note": "affixes_only is the density figure most relevant to the vocabulary-density hypothesis; pooled conflates lexical stem coverage with affix coverage."
+    }
+  }
+}
