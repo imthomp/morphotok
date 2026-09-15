@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "morphotok"
+version = "0.0.1"
+description = "Vocabulary-aligned morphological tokenization for multilingual MT"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Isaac Thompson" }]
+requires-python = ">=3.10"
+dependencies = [
+    "morfessor",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+include = ["morphotok*"]
