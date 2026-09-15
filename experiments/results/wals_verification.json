@@ -1,0 +1,394 @@
+{
+  "wals_verification": {
+    "generated_by": "scripts/verify_wals_classification.py",
+    "source": "cldf-datasets/wals on GitHub (values.csv, languages.csv, codes.csv), joined via ISO 639-3",
+    "n_wals_direct_tagged_entries": 37,
+    "n_matched_to_real_wals_datapoint": 29,
+    "n_auto_checkable": 26,
+    "n_consistent": 26,
+    "n_mismatch": 0,
+    "mismatches": [],
+    "unmatched": [
+      "arb",
+      "arb",
+      "dik",
+      "grn",
+      "kab",
+      "nus",
+      "zho",
+      "zho"
+    ],
+    "all_results": [
+      {
+        "base_code": "arb",
+        "name": "Modern Standard Arabic",
+        "our_type": "introflexive",
+        "wals_lang_id": null,
+        "wals_20a_value": null,
+        "wals_simplified": null,
+        "found": false,
+        "consistent_with_ours": null
+      },
+      {
+        "base_code": "arb",
+        "name": "Modern Standard Arabic (Romanized)",
+        "our_type": "introflexive",
+        "wals_lang_id": null,
+        "wals_20a_value": null,
+        "wals_simplified": null,
+        "found": false,
+        "consistent_with_ours": null
+      },
+      {
+        "base_code": "arz",
+        "name": "Egyptian Arabic",
+        "our_type": "introflexive",
+        "wals_lang_id": "aeg",
+        "wals_20a_value": "Ablaut/concatenative",
+        "wals_simplified": "introflexive",
+        "found": true,
+        "consistent_with_ours": true
+      },
+      {
+        "base_code": "deu",
+        "name": "German",
+        "our_type": "fusional",
+        "wals_lang_id": "ger",
+        "wals_20a_value": "Exclusively concatenative",
+        "wals_simplified": "concatenative(agglutinative-or-fusional)",
+        "found": true,
+        "consistent_with_ours": true
+      },
+      {
+        "base_code": "dik",
+        "name": "Southwestern Dinka",
+        "our_type": "fusional",
+        "wals_lang_id": null,
+        "wals_20a_value": null,
+        "wals_simplified": null,
+        "found": false,
+        "consistent_with_ours": null
+      },
+      {
+        "base_code": "ell",
+        "name": "Greek",
+        "our_type": "fusional",
+        "wals_lang_id": "grk",
+        "wals_20a_value": "Exclusively concatenative",
+        "wals_simplified": "concatenative(agglutinative-or-fusional)",
+        "found": true,
+        "consistent_with_ours": true
+      },
+      {
+        "base_code": "eus",
+        "name": "Basque",
+        "our_type": "agglutinative",
+        "wals_lang_id": "bsq",
+        "wals_20a_value": "Exclusively concatenative",
+        "wals_simplified": "concatenative(agglutinative-or-fusional)",
+        "found": true,
+        "consistent_with_ours": true
+      },
+      {
+        "base_code": "fij",
+        "name": "Fijian",
+        "our_type": "isolating",
+        "wals_lang_id": "fij",
+        "wals_20a_value": "Exclusively isolating",
+        "wals_simplified": "isolating",
+        "found": true,
+        "consistent_with_ours": true
+      },
+      {
+        "base_code": "fin",
+        "name": "Finnish",
+        "our_type": "agglutinative",
+        "wals_lang_id": "fin",
+        "wals_20a_value": "Exclusively concatenative",
+        "wals_simplified": "concatenative(agglutinative-or-fusional)",
+        "found": true,
+        "consistent_with_ours": true
+      },
+      {
+        "base_code": "fra",
+        "name": "French",
+        "our_type": "fusional",
+        "wals_lang_id": "fre",
+        "wals_20a_value": "Exclusively concatenative",
+        "wals_simplified": "concatenative(agglutinative-or-fusional)",
+        "found": true,
+        "consistent_with_ours": true
+      },
+      {
+        "base_code": "grn",
+        "name": "Guarani",
+        "our_type": "agglutinative",
+        "wals_lang_id": null,
+        "wals_20a_value": null,
+        "wals_simplified": null,
+        "found": false,
+        "consistent_with_ours": null
+      },
+      {
+        "base_code": "hau",
+        "name": "Hausa",
+        "our_type": "isolating",
+        "wals_lang_id": "hau",
+        "wals_20a_value": "Exclusively isolating",
+        "wals_simplified": "isolating",
+        "found": true,
+        "consistent_with_ours": true
+      },
+      {
+        "base_code": "heb",
+        "name": "Hebrew",
+        "our_type": "introflexive",
+        "wals_lang_id": "heb",
+        "wals_20a_value": "Ablaut/concatenative",
+        "wals_simplified": "introflexive",
+        "found": true,
+        "consistent_with_ours": true
+      },
+      {
+        "base_code": "hin",
+        "name": "Hindi",
+        "our_type": "fusional",
+        "wals_lang_id": "hin",
+        "wals_20a_value": "Exclusively concatenative",
+        "wals_simplified": "concatenative(agglutinative-or-fusional)",
+        "found": true,
+        "consistent_with_ours": true
+      },
+      {
+        "base_code": "hun",
+        "name": "Hungarian",
+        "our_type": "agglutinative",
+        "wals_lang_id": "hun",
+        "wals_20a_value": "Exclusively concatenative",
+        "wals_simplified": "concatenative(agglutinative-or-fusional)",
+        "found": true,
+        "consistent_with_ours": true
+      },
+      {
+        "base_code": "ind",
+        "name": "Indonesian",
+        "our_type": "isolating",
+        "wals_lang_id": "ind",
+        "wals_20a_value": "Exclusively isolating",
+        "wals_simplified": "isolating",
+        "found": true,
+        "consistent_with_ours": true
+      },
+      {
+        "base_code": "jpn",
+        "name": "Japanese",
+        "our_type": "agglutinative",
+        "wals_lang_id": "jpn",
+        "wals_20a_value": "Exclusively concatenative",
+        "wals_simplified": "concatenative(agglutinative-or-fusional)",
+        "found": true,
+        "consistent_with_ours": true
+      },
+      {
+        "base_code": "kab",
+        "name": "Kabyle",
+        "our_type": "introflexive",
+        "wals_lang_id": null,
+        "wals_20a_value": null,
+        "wals_simplified": null,
+        "found": false,
+        "consistent_with_ours": null
+      },
+      {
+        "base_code": "kan",
+        "name": "Kannada",
+        "our_type": "agglutinative",
+        "wals_lang_id": "knd",
+        "wals_20a_value": "Exclusively concatenative",
+        "wals_simplified": "concatenative(agglutinative-or-fusional)",
+        "found": true,
+        "consistent_with_ours": true
+      },
+      {
+        "base_code": "kat",
+        "name": "Georgian",
+        "our_type": "agglutinative",
+        "wals_lang_id": "geo",
+        "wals_20a_value": "Exclusively concatenative",
+        "wals_simplified": "concatenative(agglutinative-or-fusional)",
+        "found": true,
+        "consistent_with_ours": true
+      },
+      {
+        "base_code": "kor",
+        "name": "Korean",
+        "our_type": "agglutinative",
+        "wals_lang_id": "kor",
+        "wals_20a_value": "Exclusively concatenative",
+        "wals_simplified": "concatenative(agglutinative-or-fusional)",
+        "found": true,
+        "consistent_with_ours": true
+      },
+      {
+        "base_code": "plt",
+        "name": "Plateau Malagasy",
+        "our_type": "agglutinative",
+        "wals_lang_id": "mal",
+        "wals_20a_value": "Exclusively concatenative",
+        "wals_simplified": "concatenative(agglutinative-or-fusional)",
+        "found": true,
+        "consistent_with_ours": true
+      },
+      {
+        "base_code": "mri",
+        "name": "Maori",
+        "our_type": "isolating",
+        "wals_lang_id": "mao",
+        "wals_20a_value": "Isolating/concatenative",
+        "wals_simplified": "isolating/concatenative(mixed)",
+        "found": true,
+        "consistent_with_ours": null
+      },
+      {
+        "base_code": "nus",
+        "name": "Nuer",
+        "our_type": "fusional",
+        "wals_lang_id": null,
+        "wals_20a_value": null,
+        "wals_simplified": null,
+        "found": false,
+        "consistent_with_ours": null
+      },
+      {
+        "base_code": "pes",
+        "name": "Western Persian",
+        "our_type": "fusional",
+        "wals_lang_id": "prs",
+        "wals_20a_value": "Exclusively concatenative",
+        "wals_simplified": "concatenative(agglutinative-or-fusional)",
+        "found": true,
+        "consistent_with_ours": true
+      },
+      {
+        "base_code": "rus",
+        "name": "Russian",
+        "our_type": "fusional",
+        "wals_lang_id": "rus",
+        "wals_20a_value": "Exclusively concatenative",
+        "wals_simplified": "concatenative(agglutinative-or-fusional)",
+        "found": true,
+        "consistent_with_ours": true
+      },
+      {
+        "base_code": "spa",
+        "name": "Spanish",
+        "our_type": "fusional",
+        "wals_lang_id": "spa",
+        "wals_20a_value": "Exclusively concatenative",
+        "wals_simplified": "concatenative(agglutinative-or-fusional)",
+        "found": true,
+        "consistent_with_ours": true
+      },
+      {
+        "base_code": "swh",
+        "name": "Swahili",
+        "our_type": "agglutinative",
+        "wals_lang_id": "swa",
+        "wals_20a_value": "Exclusively concatenative",
+        "wals_simplified": "concatenative(agglutinative-or-fusional)",
+        "found": true,
+        "consistent_with_ours": true
+      },
+      {
+        "base_code": "tgl",
+        "name": "Tagalog",
+        "our_type": "agglutinative",
+        "wals_lang_id": "tag",
+        "wals_20a_value": "Exclusively concatenative",
+        "wals_simplified": "concatenative(agglutinative-or-fusional)",
+        "found": true,
+        "consistent_with_ours": true
+      },
+      {
+        "base_code": "tha",
+        "name": "Thai",
+        "our_type": "isolating",
+        "wals_lang_id": "tha",
+        "wals_20a_value": "Isolating/concatenative",
+        "wals_simplified": "isolating/concatenative(mixed)",
+        "found": true,
+        "consistent_with_ours": null
+      },
+      {
+        "base_code": "tur",
+        "name": "Turkish",
+        "our_type": "agglutinative",
+        "wals_lang_id": "tur",
+        "wals_20a_value": "Exclusively concatenative",
+        "wals_simplified": "concatenative(agglutinative-or-fusional)",
+        "found": true,
+        "consistent_with_ours": true
+      },
+      {
+        "base_code": "tzm",
+        "name": "Central Atlas Tamazight",
+        "our_type": "introflexive",
+        "wals_lang_id": "bma",
+        "wals_20a_value": "Ablaut/concatenative",
+        "wals_simplified": "introflexive",
+        "found": true,
+        "consistent_with_ours": true
+      },
+      {
+        "base_code": "vie",
+        "name": "Vietnamese",
+        "our_type": "isolating",
+        "wals_lang_id": "vie",
+        "wals_20a_value": "Exclusively isolating",
+        "wals_simplified": "isolating",
+        "found": true,
+        "consistent_with_ours": true
+      },
+      {
+        "base_code": "yor",
+        "name": "Yoruba",
+        "our_type": "isolating",
+        "wals_lang_id": "yor",
+        "wals_20a_value": "Tonal/isolating",
+        "wals_simplified": "isolating/tonal",
+        "found": true,
+        "consistent_with_ours": null
+      },
+      {
+        "base_code": "zho",
+        "name": "Chinese (Simplified)",
+        "our_type": "isolating",
+        "wals_lang_id": null,
+        "wals_20a_value": null,
+        "wals_simplified": null,
+        "found": false,
+        "consistent_with_ours": null
+      },
+      {
+        "base_code": "zho",
+        "name": "Chinese (Traditional)",
+        "our_type": "isolating",
+        "wals_lang_id": null,
+        "wals_20a_value": null,
+        "wals_simplified": null,
+        "found": false,
+        "consistent_with_ours": null
+      },
+      {
+        "base_code": "zul",
+        "name": "Zulu",
+        "our_type": "agglutinative",
+        "wals_lang_id": "zul",
+        "wals_20a_value": "Exclusively concatenative",
+        "wals_simplified": "concatenative(agglutinative-or-fusional)",
+        "found": true,
+        "consistent_with_ours": true
+      }
+    ]
+  }
+}

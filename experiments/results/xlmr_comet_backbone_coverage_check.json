@@ -1,0 +1,37 @@
+{
+  "xlmr_comet_backbone_coverage_check": {
+    "generated_by": "manual check against xlmr_cc100_languages.tsv (XLM-R paper Table 6, Conneau et al. 2020, arXiv:1911.02116)",
+    "note": "COMET-22/23 and CometKiwi-22/23 are all built on the XLM-R-large encoder; if a language isn't in XLM-R's own CC-100 pretraining data, COMET-family metrics have no learned representation for it.",
+    "checked": {
+      "arn": {
+        "name": "Mapudungun",
+        "in_xlmr_cc100": false
+      },
+      "nah": {
+        "name": "Nahuatl",
+        "in_xlmr_cc100": false
+      },
+      "ikt": {
+        "name": "Inuktitut (also try 'ike'/'iu')",
+        "in_xlmr_cc100": false
+      },
+      "ike": {
+        "name": "Inuktitut (Eastern Canadian)",
+        "in_xlmr_cc100": false
+      },
+      "iu": {
+        "name": "Inuktitut (macrolanguage)",
+        "in_xlmr_cc100": false
+      },
+      "quy": {
+        "name": "Ayacucho Quechua",
+        "in_xlmr_cc100": false
+      },
+      "qu": {
+        "name": "Quechua (macrolanguage)",
+        "in_xlmr_cc100": false
+      }
+    },
+    "conclusion": "None of arn/nah/ikt/ike/iu/quy/qu appear in XLM-R's 100-language CC-100 pretraining list. Confirms (not just assumes) COMET-family metrics are unreliable for Mapudungun, Nahuatl, Inuktitut, and Quechua -- consistent with the Mapudungun paper's own disclosed COMET-22 limitation, now extended with direct evidence to COMET-23/CometKiwi-23 as well, since they share the same XLM-R backbone."
+  }
+}

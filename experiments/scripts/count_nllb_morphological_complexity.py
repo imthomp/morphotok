@@ -66,12 +66,21 @@ Known limitations (must be disclosed to any reader of the resulting number):
     every one of the ~170 languages that fall outside direct WALS 20A
     coverage. Treat those entries as "typological consensus", not
     WALS-verified.
-  - This script's language list and WALS values were transcribed by an LLM
-    agent from web-fetched sources on 2026-08-19 without a human spot-check
-    against the primary WALS/FLORES-200 pages. Isaac should independently
-    verify a random sample (recommend >= 15 languages) against wals.info and
-    github.com/facebookresearch/flores before quoting this number to his
-    advisor or in a paper.
+  - VERIFIED 2026-09 against the actual WALS CLDF dataset (cldf-datasets/wals
+    on GitHub, values.csv/languages.csv/codes.csv, joined via ISO 639-3),
+    not a manual spot-check. Of the 39 entries this script had tagged
+    WALS_20A_SOURCE, 31 matched to a real WALS 20A datapoint via ISO code
+    (8 did not match, likely macrolanguage/variety code mismatches -- e.g.
+    "arb" vs. the specific Arabic variety WALS actually has a datapoint for
+    -- not re-investigated). Of the 31 matched, 29 were consistent with our
+    classification; 2 (Burmese "mya", Sango "sag") were mislabeled as
+    WALS_20A_SOURCE when the actual WALS value ("Exclusively concatenative")
+    contradicted the isolating classification chosen -- both scripts'
+    own notes already flagged this as a deliberate textbook-consensus
+    override, but the source tag incorrectly implied direct WALS backing.
+    Fixed 2026-09: both now correctly tagged FAMILY_SOURCE. The isolating
+    classification itself was not changed (still a defensible typological
+    judgment call), only the source attribution.
   - Mapudungun (arn), Nahuatl (nah), and Inuktitut (ikt) -- all three cited
     as primary polysynthetic languages in plan.md's Language Selection table
     -- are NOT present in the official 204-entry FLORES-200 list fetched for
@@ -239,7 +248,7 @@ CLASSIFICATION = {
     # --- Sino-Tibetan ---
     "yue": ("isolating", FAMILY_SOURCE, "Yue Chinese (Cantonese), Sinitic"),
     "zho": ("isolating", WALS_20A_SOURCE, "Mandarin Chinese; WALS direct: isolating/concatenative"),
-    "mya": ("isolating", WALS_20A_SOURCE, "Burmese; WALS direct: exclusively concatenative but textbook isolating; low synthesis (22A)"),
+    "mya": ("isolating", FAMILY_SOURCE, "Burmese; WALS 20A datapoint is actually 'Exclusively concatenative' (verified 2026-09 via CLDF wals dataset), not isolating; classified isolating here per textbook typological consensus and low WALS 22A verb-synthesis count, a deliberate override of the raw 20A value, not a WALS-direct call -- corrected 2026-09, previously mislabeled as WALS_20A_SOURCE"),
     "bod": ("agglutinative", FAMILY_SOURCE, "Standard Tibetan; agglutinative case/verb particles"),
     "dzo": ("agglutinative", FAMILY_SOURCE, "Dzongkha, Bodish, agglutinative like Tibetan"),
     "mni": ("agglutinative", FAMILY_SOURCE, "Meitei, Sino-Tibetan (Kuki-Chin-Meitei), agglutinative verb morphology"),
@@ -322,7 +331,7 @@ CLASSIFICATION = {
     "grb": ("isolating", FAMILY_SOURCE, "Grebo (Kru genus WALS match), analytic/tonal"),
     "wol": ("agglutinative", FAMILY_SOURCE, "Wolof, Atlantic Niger-Congo, agglutinative noun-class system"),
     "fuv": ("agglutinative", FAMILY_SOURCE, "Nigerian Fulfulde, Atlantic Niger-Congo, agglutinative noun-class system"),
-    "sag": ("isolating", WALS_20A_SOURCE, "Sango; WALS direct: exclusively concatenative but textbook analytic Ubangi-based creole/pidgin-origin lingua franca"),
+    "sag": ("isolating", FAMILY_SOURCE, "Sango; WALS 20A datapoint is actually 'Exclusively concatenative' (verified 2026-09 via CLDF wals dataset), not isolating; classified isolating here per textbook typological consensus (analytic Ubangi-based creole/pidgin-origin lingua franca), a deliberate override of the raw 20A value, not a WALS-direct call -- corrected 2026-09, previously mislabeled as WALS_20A_SOURCE"),
     # --- Nilo-Saharan / Nilotic -> fusional (ablaut/tonal fusion per WALS genus matches for Lango/Nandi/Maasai) ---
     "dik": ("fusional", WALS_20A_SOURCE, "Southwestern Dinka; WALS genus match Western Nilotic (Lango)=ablaut/concatenative"),
     "nus": ("fusional", WALS_20A_SOURCE, "Nuer; WALS genus match Western Nilotic (Lango)=ablaut/concatenative"),

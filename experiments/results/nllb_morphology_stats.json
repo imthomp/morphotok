@@ -1047,8 +1047,8 @@
         "flores_code": "mya_Mymr",
         "base_code": "mya",
         "morph_type": "isolating",
-        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
-        "note": "Burmese; WALS direct: exclusively concatenative but textbook isolating; low synthesis (22A)"
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Burmese; WALS 20A datapoint is actually 'Exclusively concatenative' (verified 2026-09 via CLDF wals dataset), not isolating; classified isolating here per textbook typological consensus and low WALS 22A verb-synthesis count, a deliberate override of the raw 20A value, not a WALS-direct call -- corrected 2026-09, previously mislabeled as WALS_20A_SOURCE"
       },
       {
         "name": "Dutch",
@@ -1231,8 +1231,8 @@
         "flores_code": "sag_Latn",
         "base_code": "sag",
         "morph_type": "isolating",
-        "source": "WALS_20A (Dryer & Haspelmath 2013, wals.info/chapter/20)",
-        "note": "Sango; WALS direct: exclusively concatenative but textbook analytic Ubangi-based creole/pidgin-origin lingua franca"
+        "source": "family/genus typological consensus (Comrie 1989; Velupillai 2012; WALS genus metadata)",
+        "note": "Sango; WALS 20A datapoint is actually 'Exclusively concatenative' (verified 2026-09 via CLDF wals dataset), not isolating; classified isolating here per textbook typological consensus (analytic Ubangi-based creole/pidgin-origin lingua franca), a deliberate override of the raw 20A value, not a WALS-direct call -- corrected 2026-09, previously mislabeled as WALS_20A_SOURCE"
       },
       {
         "name": "Sanskrit",

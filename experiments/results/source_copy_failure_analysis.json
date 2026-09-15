@@ -1,0 +1,154 @@
+{
+  "source_copy_failure_analysis": {
+    "1.3B-es-arn-morfessor": {
+      "generated_by": "scripts/source_copy_failure_analysis.py",
+      "input_file": "/nobackup/archive/usr/it238/mapudungun_predictions/1.3B-es-arn_readable.txt",
+      "n_examples": 9382,
+      "n_flagged": 46,
+      "pct_flagged": 0.49,
+      "method": "Normalized character-level SequenceMatcher ratio; flagged if sim(ES,PRED) > 0.6 and sim(ES,PRED) - sim(REF,PRED) > 0.2. Heuristic proxy for near-verbatim source copying, not a semantic judgment.",
+      "top_examples": [
+        {
+          "es": "No, no le fue difícil.",
+          "ref": "No küdautulay.",
+          "pred": "No, no le fue difícil.",
+          "sim_es_pred": 1.0,
+          "sim_ref_pred": 0.303
+        },
+        {
+          "es": "Osea que va se llama siete vena no sabe ahí.",
+          "ref": "Osea que chunka amutuy siete vena pingeki kimlaymi feymu.",
+          "pred": "Osea que va se llama siete vena no sabe ahí.",
+          "sim_es_pred": 1.0,
+          "sim_ref_pred": 0.586
+        },
+        {
+          "es": "Pero todo eso varios varios todos.",
+          "ref": "Welu kom tüfi fil, fill kom.",
+          "pred": "Pero todo eso varios varios todo.",
+          "sim_es_pred": 0.985,
+          "sim_ref_pred": 0.31
+        },
+        {
+          "es": "Claro, por que dice dios pues.",
+          "ref": "Claro Dios ñi pinmu ka.",
+          "pred": "Claro porque dice Dios pues .",
+          "sim_es_pred": 0.964,
+          "sim_ref_pred": 0.48
+        },
+        {
+          "es": "Alocado no vez que...",
+          "ref": "Locazo no'y'que.",
+          "pred": "Alocado no ves que...",
+          "sim_es_pred": 0.944,
+          "sim_ref_pred": 0.71
+        },
+        {
+          "es": "Sí pues mucho mejor cuerpo todo.",
+          "ref": "Sí pu doy kümeke cuerpo todo .",
+          "pred": "Si pu' mucho mejor cuerpo todo.",
+          "sim_es_pred": 0.933,
+          "sim_ref_pred": 0.724
+        },
+        {
+          "es": "A la Posta de Chol-Chol ya estaba jodida , ya.",
+          "ref": "Chol-chol pstamu fey ya estaba jodida ya.",
+          "pred": "A la posta Chol-chol ya estaba jodido ya.",
+          "sim_es_pred": 0.927,
+          "sim_ref_pred": 0.692
+        },
+        {
+          "es": "No, nomeda mucha flojera pues limon y cachan lahuen.",
+          "ref": "Chofokelan reke inche pu' fey limon kachan l'awen'.",
+          "pred": "No, nomeda mucho flajera pu' limon y cachan l'awen'.",
+          "sim_es_pred": 0.907,
+          "sim_ref_pred": 0.596
+        },
+        {
+          "es": "Si ese pues.",
+          "ref": "May tie tati.",
+          "pred": "Si ese pu'.",
+          "sim_es_pred": 0.9,
+          "sim_ref_pred": 0.286
+        },
+        {
+          "es": "Sí. una vez ya, hasta la hora me hice cagar cualquier cosa pues, lo agarra altiro su, enfermedad pues el aire.",
+          "ref": "Si. una ve ya asta la hora me hise kagar cualquier cosa pu' pulu miem ka nüfemtukiyu tañi kutranka pafmu",
+          "pred": "May. kiñe rupa ya, hasta la hora me hice cagar cualquier cosa pu', lo agarra altiro su, enfermedad pu' el aire.",
+          "sim_es_pred": 0.9,
+          "sim_ref_pred": 0.553
+        },
+        {
+          "es": "Si pues si.",
+          "ref": "Fey pu' fey.",
+          "pred": "Si pu' si.",
+          "sim_es_pred": 0.889,
+          "sim_ref_pred": 0.444
+        },
+        {
+          "es": "Sí. No-zafadura, zafadura.",
+          "ref": "May. No welnginmu, welnginmu",
+          "pred": "May. No-zafadura, zafadura.",
+          "sim_es_pred": 0.889,
+          "sim_ref_pred": 0.327
+        },
+        {
+          "es": "Al lado, al lado pues mensajero pues, hay mensajeros.",
+          "ref": "Afkasi afkasi pu' werken pu', mülelu pu' werken.",
+          "pred": "Al lado, al lado pu' mensajero pu' müley mensajero.",
+          "sim_es_pred": 0.887,
+          "sim_ref_pred": 0.489
+        },
+        {
+          "es": "no vé si.",
+          "ref": "Pelotuwelay may.",
+          "pred": "no ve si.",
+          "sim_es_pred": 0.875,
+          "sim_ref_pred": 0.174
+        },
+        {
+          "es": "El Maqui y la enredadera pues",
+          "ref": "Külon engün tichi püllay tati..",
+          "pred": "El make y la enredadera pu'",
+          "sim_es_pred": 0.873,
+          "sim_ref_pred": 0.255
+        },
+        {
+          "es": "Eso levantan bandera solo bandera no más todo eso de blanco bluza azul delantal azul todo de Azul así es como llegaban vestidas las mujeres los hombres todo de camiza azul de bandera azul.",
+          "ref": "Ese feyta witraley bandera mütenengün todo de blanco azul blusa azul delantal kom azul fey ta femngechi ta puukefuy tukutuukefuy ta pu domo pu wentru kom azul camisa azul bandera.",
+          "pred": "Fey witrañpüramngi bandera re bandera müten todo eso de blanco blusa azul delantar azul todo azul así es como llegaban vestidas las mujeres los hombres todo de camiza azul bandera azul.",
+          "sim_es_pred": 0.873,
+          "sim_ref_pred": 0.503
+        },
+        {
+          "es": "Ante de comer.",
+          "ref": "Petu inon.",
+          "pred": "Ante comer.",
+          "sim_es_pred": 0.87,
+          "sim_ref_pred": 0.316
+        },
+        {
+          "es": "Hortiga no es.",
+          "ref": "Kuri no.",
+          "pred": "Hortiga no.",
+          "sim_es_pred": 0.87,
+          "sim_ref_pred": 0.588
+        },
+        {
+          "es": "Si. Porque cuando va al hospital no conviene nada porque el doctor no tiene conocimento sobre esas cosas pues.",
+          "ref": "Sí. Porque amuy opitalmeu tutelay turpu porque doctor ta adümnielay feychi dungu pues .",
+          "pred": "May. Porque amuy pitalmu no conviene nada porque doctor no tiene conocimiento sobre esa cosa pues .",
+          "sim_es_pred": 0.849,
+          "sim_ref_pred": 0.527
+        },
+        {
+          "es": "Dónde cosecha la gente el trigo no vez que hay que dejar puesto una piedra redonda nosotros tenemos allá una piedra redonda se deja puesto en el cajón pues cajón el granero de trigo.",
+          "ref": "Chew kosechay che kachilla no'y'que müli ñi tukunual kiñe monkol kura inche niekiñ uyu kiñe monkol kura tukukunungeki kajonmu pu cajón granero kachilla.",
+          "pred": "Chew kosecha che kachilla no ves que hay que dejar poner una piedra redonda nosotros tenemos allá una piedra redonda se deja poner en el cajon pues cajon el granero de kachilla.",
+          "sim_es_pred": 0.818,
+          "sim_ref_pred": 0.517
+        }
+      ]
+    }
+  }
+}
