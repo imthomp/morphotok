@@ -217,3 +217,12 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 experiments/data/wals_cache/
+
+# Local experiment artifacts and downloaded/generated corpora
+experiments/models/
+experiments/logs/
+experiments/data/flores_plus_cache/
+experiments/data/morphynet_cache/
+experiments/data/wordlists/
+experiments/data_pipeline/
+!experiments/data_pipeline/.gitkeep
