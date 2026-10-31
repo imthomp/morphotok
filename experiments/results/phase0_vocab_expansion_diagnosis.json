@@ -1,0 +1,12 @@
+{
+  "n_new_tokens_in_vocab": 13024,
+  "reference_new_token_rate": 0.38253,
+  "reference_new_token_hits": 85499,
+  "reference_total_tokens": 223512,
+  "generated_new_token_rate": 0.30883,
+  "generated_new_token_hits": 81904,
+  "generated_total_tokens": 265205,
+  "n_sentences_total": 9367,
+  "n_sentences_with_ge1_new_token": 9277,
+  "frac_sentences_with_ge1_new_token": 0.9904
+}

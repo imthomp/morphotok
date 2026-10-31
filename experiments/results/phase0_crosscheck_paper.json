@@ -1,0 +1,24 @@
+{
+  "phase0_crosscheck_paper": {
+    "ours_standard": {
+      "chrF++": 45.36,
+      "chrF": 47.62,
+      "BLEU": 18.95
+    },
+    "ours_vc": {
+      "chrF++": 44.24,
+      "chrF": 46.45,
+      "BLEU": 18.38
+    },
+    "paper_standard": {
+      "chrF++": 36.21,
+      "chrF": 38.35,
+      "BLEU": 11.31
+    },
+    "paper_vc": {
+      "chrF++": 43.22,
+      "chrF": 45.43,
+      "BLEU": 17.51
+    }
+  }
+}

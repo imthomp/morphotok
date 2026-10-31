@@ -1,0 +1,32 @@
+{
+  "fertility_analysis": {
+    "fin": {
+      "generated_by": "scripts/fertility_analysis.py",
+      "n_words": 100000,
+      "standard_bpe_fertility": 6.364,
+      "morfessor_fertility": 2.452,
+      "note": "standard_bpe = NLLB's own tokenizer applied directly per word; morfessor = pre-segmentation piece count, independent of NLLB vocab membership."
+    },
+    "hun": {
+      "generated_by": "scripts/fertility_analysis.py",
+      "n_words": 100000,
+      "standard_bpe_fertility": 5.921,
+      "morfessor_fertility": 2.11,
+      "note": "standard_bpe = NLLB's own tokenizer applied directly per word; morfessor = pre-segmentation piece count, independent of NLLB vocab membership."
+    },
+    "rus": {
+      "generated_by": "scripts/fertility_analysis.py",
+      "n_words": 100000,
+      "standard_bpe_fertility": 5.8,
+      "morfessor_fertility": 2.111,
+      "note": "standard_bpe = NLLB's own tokenizer applied directly per word; morfessor = pre-segmentation piece count, independent of NLLB vocab membership."
+    },
+    "ces": {
+      "generated_by": "scripts/fertility_analysis.py",
+      "n_words": 100000,
+      "standard_bpe_fertility": 5.262,
+      "morfessor_fertility": 2.059,
+      "note": "standard_bpe = NLLB's own tokenizer applied directly per word; morfessor = pre-segmentation piece count, independent of NLLB vocab membership."
+    }
+  }
+}

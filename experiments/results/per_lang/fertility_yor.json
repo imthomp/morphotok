@@ -1,0 +1,11 @@
+{
+  "fertility_analysis": {
+    "yor": {
+      "generated_by": "scripts/fertility_analysis.py",
+      "n_words": 12745,
+      "standard_bpe_fertility": 4.856,
+      "morfessor_fertility": 2.246,
+      "note": "standard_bpe = NLLB's own tokenizer applied directly per word; morfessor = pre-segmentation piece count, independent of NLLB vocab membership."
+    }
+  }
+}

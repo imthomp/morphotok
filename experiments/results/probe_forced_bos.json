@@ -1,0 +1,116 @@
+{
+  "paper_standard (2026-03-01, pre-fix)": {
+    "spa_Latn": {
+      "chrF++": 35.08,
+      "first_token_counts": [
+        [
+          "spa_Latn",
+          300
+        ]
+      ]
+    },
+    "eng_Latn": {
+      "chrF++": 24.83,
+      "first_token_counts": [
+        [
+          "eng_Latn",
+          300
+        ]
+      ]
+    },
+    "arn_Latn": {
+      "chrF++": 31.42,
+      "first_token_counts": [
+        [
+          "arn_Latn",
+          300
+        ]
+      ]
+    },
+    "none": {
+      "chrF++": 35.08,
+      "first_token_counts": [
+        [
+          "spa_Latn",
+          300
+        ]
+      ]
+    }
+  },
+  "paper_vc (2026-03-16, post-fix)": {
+    "spa_Latn": {
+      "chrF++": 39.95,
+      "first_token_counts": [
+        [
+          "spa_Latn",
+          300
+        ]
+      ]
+    },
+    "eng_Latn": {
+      "chrF++": 13.73,
+      "first_token_counts": [
+        [
+          "eng_Latn",
+          300
+        ]
+      ]
+    },
+    "arn_Latn": {
+      "chrF++": 13.45,
+      "first_token_counts": [
+        [
+          "arn_Latn",
+          300
+        ]
+      ]
+    },
+    "none": {
+      "chrF++": 39.95,
+      "first_token_counts": [
+        [
+          "spa_Latn",
+          300
+        ]
+      ]
+    }
+  },
+  "ours_standard (post-fix)": {
+    "spa_Latn": {
+      "chrF++": 41.61,
+      "first_token_counts": [
+        [
+          "spa_Latn",
+          300
+        ]
+      ]
+    },
+    "eng_Latn": {
+      "chrF++": 13.75,
+      "first_token_counts": [
+        [
+          "eng_Latn",
+          300
+        ]
+      ]
+    },
+    "arn_Latn": {
+      "chrF++": 18.46,
+      "first_token_counts": [
+        [
+          "arn_Latn",
+          300
+        ]
+      ]
+    },
+    "none": {
+      "chrF++": 41.61,
+      "first_token_counts": [
+        [
+          "spa_Latn",
+          300
+        ]
+      ]
+    }
+  }
+}

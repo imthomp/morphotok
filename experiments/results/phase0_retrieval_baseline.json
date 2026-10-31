@@ -1,0 +1,17 @@
+{
+  "phase0_retrieval_baseline": {
+    "generated_by": "scripts/phase0_retrieval_baseline.py",
+    "es_to_arn": {
+      "n_test": 9367,
+      "corpus_chrf": 19.01,
+      "corpus_bleu": 1.14,
+      "mean_sentence_chrf": 21.03
+    },
+    "arn_to_es": {
+      "n_test": 9367,
+      "corpus_chrf": 19.41,
+      "corpus_bleu": 2.15,
+      "mean_sentence_chrf": 21.82
+    }
+  }
+}

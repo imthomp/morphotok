@@ -1,0 +1,34 @@
+{
+  "phase0_pilot_bootstrap": {
+    "n_sentences": 9367,
+    "n_bootstrap_resamples": 1000,
+    "mean_sentence_chrf": {
+      "standard": 45.3,
+      "morfessor_vc": 45.11,
+      "vocab_expansion": 43.62
+    },
+    "comparisons": {
+      "morfessor_vc_vs_standard": {
+        "observed_mean_diff": -0.1876,
+        "ci95_lo": -0.371,
+        "ci95_hi": 0.0072,
+        "two_sided_p_approx": 0.06,
+        "significant_at_0.05": false
+      },
+      "vocab_expansion_vs_standard": {
+        "observed_mean_diff": -1.6778,
+        "ci95_lo": -1.9582,
+        "ci95_hi": -1.4148,
+        "two_sided_p_approx": 0.0,
+        "significant_at_0.05": true
+      },
+      "vocab_expansion_vs_morfessor_vc": {
+        "observed_mean_diff": -1.4902,
+        "ci95_lo": -1.7702,
+        "ci95_hi": -1.2274,
+        "two_sided_p_approx": 0.0,
+        "significant_at_0.05": true
+      }
+    }
+  }
+}

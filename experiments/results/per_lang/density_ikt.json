@@ -1,0 +1,16 @@
+{
+  "unsupervised_vocabulary_density": {
+    "ikt": {
+      "generated_by": "scripts/unsupervised_vocabulary_density.py",
+      "wordlist_source": "experiments/data/wordlists/wordforms_ikt.txt",
+      "n_words_used": 100000,
+      "nllb_vocab_size": 256204,
+      "morpheme_types_total": 18214,
+      "morpheme_types_in_nllb_vocab": 277,
+      "density_by_type": 0.0152,
+      "morpheme_tokens_total": 284163,
+      "morpheme_tokens_in_nllb_vocab": 14482,
+      "density_by_token": 0.051
+    }
+  }
+}

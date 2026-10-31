@@ -1,0 +1,92 @@
+{
+  "nllb-600M-blocks-arn-es|published_format": {
+    "chrF++": 36.18,
+    "chrF": 38.32,
+    "BLEU": 11.32,
+    "first_generated_tokens": [
+      [
+        "spa_Latn",
+        9367
+      ]
+    ]
+  },
+  "nllb-600M-blocks-arn-es|training_format": {
+    "chrF++": 43.95,
+    "chrF": 46.2,
+    "BLEU": 17.73,
+    "first_generated_tokens": [
+      [
+        "▁¿",
+        970
+      ],
+      [
+        "▁No",
+        764
+      ],
+      [
+        "▁Sí",
+        755
+      ]
+    ]
+  },
+  "nllb-1.3B-blocks-arn-es|published_format": {
+    "chrF++": 42.74,
+    "chrF": 44.96,
+    "BLEU": 16.39,
+    "first_generated_tokens": [
+      [
+        "spa_Latn",
+        9367
+      ]
+    ]
+  },
+  "nllb-1.3B-blocks-arn-es|training_format": {
+    "chrF++": 46.01,
+    "chrF": 48.28,
+    "BLEU": 19.39,
+    "first_generated_tokens": [
+      [
+        "▁¿",
+        980
+      ],
+      [
+        "▁Sí",
+        754
+      ],
+      [
+        "▁No",
+        692
+      ]
+    ]
+  },
+  "nllb-200-3.3B-blocks-arn-es|published_format": {
+    "chrF++": 44.42,
+    "chrF": 46.76,
+    "BLEU": 17.62,
+    "first_generated_tokens": [
+      [
+        "spa_Latn",
+        9367
+      ]
+    ]
+  },
+  "nllb-200-3.3B-blocks-arn-es|training_format": {
+    "chrF++": 46.64,
+    "chrF": 49.0,
+    "BLEU": 19.93,
+    "first_generated_tokens": [
+      [
+        "▁¿",
+        973
+      ],
+      [
+        "▁Sí",
+        740
+      ],
+      [
+        "▁No",
+        675
+      ]
+    ]
+  }
+}

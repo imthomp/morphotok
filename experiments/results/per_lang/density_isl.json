@@ -1,0 +1,16 @@
+{
+  "unsupervised_vocabulary_density": {
+    "isl": {
+      "generated_by": "scripts/unsupervised_vocabulary_density.py",
+      "wordlist_source": "experiments/data/flores_plus_cache/wordforms_isl.txt",
+      "n_words_used": 14239,
+      "nllb_vocab_size": 256204,
+      "morpheme_types_total": 5424,
+      "morpheme_types_in_nllb_vocab": 1811,
+      "density_by_type": 0.3339,
+      "morpheme_tokens_total": 31269,
+      "morpheme_tokens_in_nllb_vocab": 20404,
+      "density_by_token": 0.6525
+    }
+  }
+}

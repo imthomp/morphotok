@@ -1,0 +1,374 @@
+{
+  "fin": {
+    "generated_by": "scripts/train_vocab_biased_bpe.py",
+    "n_words": 100000,
+    "num_merges": 8000,
+    "lam": 1.0,
+    "elapsed_seconds": 541.19,
+    "n_words_split_gt1_piece": 99964,
+    "examples": [
+      {
+        "word": "buprenorfiiniksi",
+        "pieces": [
+          "▁b",
+          "up",
+          "ren",
+          "orf",
+          "iin",
+          "iksi"
+        ]
+      },
+      {
+        "word": "leopardigekkoja",
+        "pieces": [
+          "▁le",
+          "op",
+          "ard",
+          "ig",
+          "ekko",
+          "ja"
+        ]
+      },
+      {
+        "word": "ancyluskotiloksi",
+        "pieces": [
+          "▁an",
+          "c",
+          "yl",
+          "usko",
+          "til",
+          "oksi"
+        ]
+      },
+      {
+        "word": "häävuode",
+        "pieces": [
+          "▁hää",
+          "vuo",
+          "de"
+        ]
+      },
+      {
+        "word": "barokliinisiksi",
+        "pieces": [
+          "▁bar",
+          "ok",
+          "liin",
+          "isiksi"
+        ]
+      },
+      {
+        "word": "kittasi",
+        "pieces": [
+          "▁k",
+          "itta",
+          "si"
+        ]
+      },
+      {
+        "word": "vaaleankeltaisensa",
+        "pieces": [
+          "▁vaale",
+          "ankelta",
+          "isensa"
+        ]
+      },
+      {
+        "word": "kaptatiivisten",
+        "pieces": [
+          "▁kap",
+          "tatiiv",
+          "isten"
+        ]
+      },
+      {
+        "word": "keltaposkiseppänne",
+        "pieces": [
+          "▁kelta",
+          "p",
+          "osk",
+          "ise",
+          "pp",
+          "änne"
+        ]
+      },
+      {
+        "word": "pitkulaisia",
+        "pieces": [
+          "▁pitk",
+          "ula",
+          "isia"
+        ]
+      }
+    ]
+  },
+  "hun": {
+    "generated_by": "scripts/train_vocab_biased_bpe.py",
+    "n_words": 100000,
+    "num_merges": 8000,
+    "lam": 1.0,
+    "elapsed_seconds": 398.91,
+    "n_words_split_gt1_piece": 99773,
+    "examples": [
+      {
+        "word": "edényeknél",
+        "pieces": [
+          "▁ed",
+          "ény",
+          "eknél"
+        ]
+      },
+      {
+        "word": "régiókra",
+        "pieces": [
+          "▁rég",
+          "i",
+          "ókra"
+        ]
+      },
+      {
+        "word": "besúgókká",
+        "pieces": [
+          "▁besúg",
+          "ókká"
+        ]
+      },
+      {
+        "word": "Hajnalkáért",
+        "pieces": [
+          "▁H",
+          "aj",
+          "nal",
+          "káért"
+        ]
+      },
+      {
+        "word": "derültként",
+        "pieces": [
+          "▁der",
+          "ült",
+          "ként"
+        ]
+      },
+      {
+        "word": "nonszenszeknél",
+        "pieces": [
+          "▁non",
+          "szen",
+          "sz",
+          "eknél"
+        ]
+      },
+      {
+        "word": "vonokba",
+        "pieces": [
+          "▁von",
+          "okba"
+        ]
+      },
+      {
+        "word": "megjátszotta",
+        "pieces": [
+          "▁meg",
+          "ját",
+          "sz",
+          "otta"
+        ]
+      },
+      {
+        "word": "molesztálandó",
+        "pieces": [
+          "▁mol",
+          "eszt",
+          "ál",
+          "andó"
+        ]
+      },
+      {
+        "word": "sztahanovistaként",
+        "pieces": [
+          "▁szt",
+          "ah",
+          "anov",
+          "ist",
+          "aként"
+        ]
+      }
+    ]
+  },
+  "rus": {
+    "generated_by": "scripts/train_vocab_biased_bpe.py",
+    "n_words": 100000,
+    "num_merges": 8000,
+    "lam": 1.0,
+    "elapsed_seconds": 429.25,
+    "n_words_split_gt1_piece": 99857,
+    "examples": [
+      {
+        "word": "декантирует",
+        "pieces": [
+          "▁декан",
+          "тирует"
+        ]
+      },
+      {
+        "word": "продавшие",
+        "pieces": [
+          "▁прода",
+          "вшие"
+        ]
+      },
+      {
+        "word": "вметёшь",
+        "pieces": [
+          "▁вме",
+          "т",
+          "ёшь"
+        ]
+      },
+      {
+        "word": "колонизируемыми",
+        "pieces": [
+          "▁коло",
+          "низиру",
+          "емыми"
+        ]
+      },
+      {
+        "word": "гладильне",
+        "pieces": [
+          "▁гла",
+          "ди",
+          "ль",
+          "не"
+        ]
+      },
+      {
+        "word": "поёжившиеся",
+        "pieces": [
+          "▁по",
+          "ёжи",
+          "вшиеся"
+        ]
+      },
+      {
+        "word": "упрятываем",
+        "pieces": [
+          "▁упря",
+          "ты",
+          "ваем"
+        ]
+      },
+      {
+        "word": "переизбиравшая",
+        "pieces": [
+          "▁переиз",
+          "бира",
+          "вшая"
+        ]
+      },
+      {
+        "word": "повалявшейся",
+        "pieces": [
+          "▁пова",
+          "ля",
+          "вшейся"
+        ]
+      },
+      {
+        "word": "сверлишь",
+        "pieces": [
+          "▁свер",
+          "ли",
+          "шь"
+        ]
+      }
+    ]
+  },
+  "ces": {
+    "generated_by": "scripts/train_vocab_biased_bpe.py",
+    "n_words": 100000,
+    "num_merges": 8000,
+    "lam": 1.0,
+    "elapsed_seconds": 435.63,
+    "n_words_split_gt1_piece": 99587,
+    "examples": [
+      {
+        "word": "dokopete",
+        "pieces": [
+          "▁dokop",
+          "ete"
+        ]
+      },
+      {
+        "word": "růžových",
+        "pieces": [
+          "▁rů",
+          "ž",
+          "ových"
+        ]
+      },
+      {
+        "word": "bobrovém",
+        "pieces": [
+          "▁bob",
+          "rovém"
+        ]
+      },
+      {
+        "word": "Kasalech",
+        "pieces": [
+          "▁Kas",
+          "alech"
+        ]
+      },
+      {
+        "word": "déčáky",
+        "pieces": [
+          "▁dé",
+          "č",
+          "áky"
+        ]
+      },
+      {
+        "word": "poštách",
+        "pieces": [
+          "▁po",
+          "št",
+          "ách"
+        ]
+      },
+      {
+        "word": "zachránkyně",
+        "pieces": [
+          "▁zachrán",
+          "kyně"
+        ]
+      },
+      {
+        "word": "panebože",
+        "pieces": [
+          "▁pan",
+          "eb",
+          "o",
+          "že"
+        ]
+      },
+      {
+        "word": "plavajíce",
+        "pieces": [
+          "▁plav",
+          "ajíce"
+        ]
+      },
+      {
+        "word": "šťukalo",
+        "pieces": [
+          "▁šť",
+          "uk",
+          "alo"
+        ]
+      }
+    ]
+  }
+}

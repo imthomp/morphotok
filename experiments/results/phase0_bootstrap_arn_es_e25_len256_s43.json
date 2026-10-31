@@ -1,0 +1,33 @@
+{
+  "direction": "arn->es",
+  "suffix": "_e25_len256_s43",
+  "n_sentences": 9367,
+  "mean_sentence_chrf": {
+    "standard": 48.18,
+    "morfessor_vc": 48.05
+  },
+  "corpus_chrf_regenerated": {
+    "standard": 49.12,
+    "morfessor_vc": 48.93
+  },
+  "comparisons": {
+    "morfessor_vc_vs_standard": {
+      "sentence_mean": {
+        "observed_mean_diff": -0.1299,
+        "ci95_lo": -0.3246,
+        "ci95_hi": 0.0586,
+        "two_sided_p_approx": 0.182,
+        "significant_at_0.05": false
+      },
+      "corpus_chrf": {
+        "corpus_a": 48.93,
+        "corpus_b": 49.12,
+        "observed_diff": -0.1891,
+        "ci95_lo": -0.3678,
+        "ci95_hi": -0.0075,
+        "two_sided_p_approx": 0.04,
+        "significant_at_0.05": true
+      }
+    }
+  }
+}

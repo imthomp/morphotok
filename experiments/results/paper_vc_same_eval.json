@@ -1,0 +1,12 @@
+{
+  "nllb-1.3B-blocks-arn-es-morfessor_vc": {
+    "chrF++": 45.19,
+    "chrF": 47.42,
+    "BLEU": 19.28
+  },
+  "nllb-200-3.3B-blocks-arn-es-morfessor_vc": {
+    "chrF++": 45.62,
+    "chrF": 47.92,
+    "BLEU": 19.58
+  }
+}

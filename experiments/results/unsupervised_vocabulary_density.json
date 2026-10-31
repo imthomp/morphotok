@@ -1,0 +1,52 @@
+{
+  "unsupervised_vocabulary_density": {
+    "fin": {
+      "generated_by": "scripts/unsupervised_vocabulary_density.py",
+      "wordlist_source": "/tmp/morphynet/wordforms_fi.txt",
+      "n_words_used": 100000,
+      "nllb_vocab_size": 256204,
+      "morpheme_types_total": 23444,
+      "morpheme_types_in_nllb_vocab": 4614,
+      "density_by_type": 0.1968,
+      "morpheme_tokens_total": 274603,
+      "morpheme_tokens_in_nllb_vocab": 105069,
+      "density_by_token": 0.3826
+    },
+    "hun": {
+      "generated_by": "scripts/unsupervised_vocabulary_density.py",
+      "wordlist_source": "/tmp/morphynet/wordforms_hu.txt",
+      "n_words_used": 100000,
+      "nllb_vocab_size": 256204,
+      "morpheme_types_total": 18796,
+      "morpheme_types_in_nllb_vocab": 2784,
+      "density_by_type": 0.1481,
+      "morpheme_tokens_total": 210970,
+      "morpheme_tokens_in_nllb_vocab": 82937,
+      "density_by_token": 0.3931
+    },
+    "rus": {
+      "generated_by": "scripts/unsupervised_vocabulary_density.py",
+      "wordlist_source": "/tmp/morphynet/wordforms_rus.txt",
+      "n_words_used": 100000,
+      "nllb_vocab_size": 256204,
+      "morpheme_types_total": 18256,
+      "morpheme_types_in_nllb_vocab": 2365,
+      "density_by_type": 0.1295,
+      "morpheme_tokens_total": 210890,
+      "morpheme_tokens_in_nllb_vocab": 65435,
+      "density_by_token": 0.3103
+    },
+    "ces": {
+      "generated_by": "scripts/unsupervised_vocabulary_density.py",
+      "wordlist_source": "/tmp/morphynet/wordforms_ces.txt",
+      "n_words_used": 100000,
+      "nllb_vocab_size": 256204,
+      "morpheme_types_total": 22508,
+      "morpheme_types_in_nllb_vocab": 4249,
+      "density_by_type": 0.1888,
+      "morpheme_tokens_total": 205503,
+      "morpheme_tokens_in_nllb_vocab": 107989,
+      "density_by_token": 0.5255
+    }
+  }
+}

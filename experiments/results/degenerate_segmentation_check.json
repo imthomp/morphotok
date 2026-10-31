@@ -1,0 +1,58 @@
+{
+  "fin": {
+    "near_char_level": 0,
+    "n_sampled": 40
+  },
+  "hun": {
+    "near_char_level": 0,
+    "n_sampled": 40
+  },
+  "rus": {
+    "near_char_level": 0,
+    "n_sampled": 40
+  },
+  "ces": {
+    "near_char_level": 0,
+    "n_sampled": 40
+  },
+  "tur": {
+    "near_char_level": 0,
+    "n_sampled": 40,
+    "n_words": 16106
+  },
+  "swh": {
+    "near_char_level": 1,
+    "n_sampled": 40,
+    "n_words": 12067
+  },
+  "isl": {
+    "near_char_level": 0,
+    "n_sampled": 40,
+    "n_words": 14239
+  },
+  "vie": {
+    "near_char_level": 1,
+    "n_sampled": 40,
+    "n_words": 7094
+  },
+  "yor": {
+    "near_char_level": 2,
+    "n_sampled": 40,
+    "n_words": 12745
+  },
+  "nah": {
+    "near_char_level": 0,
+    "n_sampled": 40,
+    "n_words": 23597
+  },
+  "quy": {
+    "near_char_level": 0,
+    "n_sampled": 40,
+    "n_words": 143717
+  },
+  "ikt": {
+    "near_char_level": 0,
+    "n_sampled": 40,
+    "n_words": 523568
+  }
+}

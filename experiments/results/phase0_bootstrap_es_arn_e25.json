@@ -1,0 +1,53 @@
+{
+  "direction": "es->arn",
+  "suffix": "_e25",
+  "n_sentences": 9367,
+  "mean_sentence_chrf": {
+    "standard": 47.06,
+    "morfessor_vc": 46.9,
+    "vocab_expansion": 45.85
+  },
+  "corpus_chrf_regenerated": {
+    "standard": 46.25,
+    "morfessor_vc": 45.61,
+    "vocab_expansion": 45.0
+  },
+  "comparisons": {
+    "morfessor_vc_vs_standard": {
+      "sentence_mean": {
+        "observed_mean_diff": -0.1626,
+        "ci95_lo": -0.3584,
+        "ci95_hi": 0.047,
+        "two_sided_p_approx": 0.12,
+        "significant_at_0.05": false
+      },
+      "corpus_chrf": {
+        "corpus_a": 45.61,
+        "corpus_b": 46.25,
+        "observed_diff": -0.6392,
+        "ci95_lo": -0.8547,
+        "ci95_hi": -0.4533,
+        "two_sided_p_approx": 0.0,
+        "significant_at_0.05": true
+      }
+    },
+    "vocab_expansion_vs_standard": {
+      "sentence_mean": {
+        "observed_mean_diff": -1.2138,
+        "ci95_lo": -1.4667,
+        "ci95_hi": -0.9678,
+        "two_sided_p_approx": 0.0,
+        "significant_at_0.05": true
+      },
+      "corpus_chrf": {
+        "corpus_a": 45.0,
+        "corpus_b": 46.25,
+        "observed_diff": -1.2444,
+        "ci95_lo": -1.4572,
+        "ci95_hi": -1.0371,
+        "two_sided_p_approx": 0.0,
+        "significant_at_0.05": true
+      }
+    }
+  }
+}

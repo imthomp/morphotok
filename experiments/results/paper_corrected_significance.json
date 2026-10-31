@@ -1,0 +1,38 @@
+{
+  "600M": {
+    "corpus_a": 43.22,
+    "corpus_b": 43.95,
+    "observed_diff": -0.7252,
+    "ci95_lo": -0.9233,
+    "ci95_hi": -0.5421,
+    "two_sided_p_approx": 0.0,
+    "significant_at_0.05": true
+  },
+  "1.3B": {
+    "corpus_a": 45.19,
+    "corpus_b": 46.01,
+    "observed_diff": -0.8228,
+    "ci95_lo": -0.9929,
+    "ci95_hi": -0.6401,
+    "two_sided_p_approx": 0.0,
+    "significant_at_0.05": true
+  },
+  "3.3B": {
+    "corpus_a": 45.62,
+    "corpus_b": 46.64,
+    "observed_diff": -1.0149,
+    "ci95_lo": -1.2104,
+    "ci95_hi": -0.8257,
+    "two_sided_p_approx": 0.0,
+    "significant_at_0.05": true
+  },
+  "600M_VC_vs_3.3B_Standard": {
+    "corpus_a": 43.22,
+    "corpus_b": 46.64,
+    "observed_diff": -3.4175,
+    "ci95_lo": -3.6657,
+    "ci95_hi": -3.1906,
+    "two_sided_p_approx": 0.0,
+    "significant_at_0.05": true
+  }
+}

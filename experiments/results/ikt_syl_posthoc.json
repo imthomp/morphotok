@@ -1,0 +1,89 @@
+{
+  "ikt_en|syl_morph_vs_syl_bpe": {
+    "corpus_a": 49.04,
+    "corpus_b": 49.25,
+    "observed_diff": -0.2085,
+    "ci95_lo": -0.4915,
+    "ci95_hi": 0.0842,
+    "two_sided_p_approx": 0.17,
+    "significant_at_0.05": false
+  },
+  "ikt_en|syl_morph_vs_syl_char": {
+    "corpus_a": 49.04,
+    "corpus_b": 42.7,
+    "observed_diff": 6.3415,
+    "ci95_lo": 5.9759,
+    "ci95_hi": 6.7873,
+    "two_sided_p_approx": 0.0,
+    "significant_at_0.05": true
+  },
+  "ikt_en|syl_bpe_vs_syl_char": {
+    "corpus_a": 49.25,
+    "corpus_b": 42.7,
+    "observed_diff": 6.5499,
+    "ci95_lo": 6.1398,
+    "ci95_hi": 6.9963,
+    "two_sided_p_approx": 0.0,
+    "significant_at_0.05": true
+  },
+  "ikt_en|bleu": {
+    "syl_char": 26.47,
+    "syl_bpe": 32.45,
+    "syl_morph": 32.23
+  },
+  "en_ikt|syl_morph_vs_syl_bpe": {
+    "corpus_a": 30.84,
+    "corpus_b": 31.21,
+    "observed_diff": -0.3728,
+    "ci95_lo": -0.596,
+    "ci95_hi": -0.1603,
+    "two_sided_p_approx": 0.0,
+    "significant_at_0.05": true
+  },
+  "en_ikt|syl_morph_vs_syl_char": {
+    "corpus_a": 30.84,
+    "corpus_b": 35.95,
+    "observed_diff": -5.1115,
+    "ci95_lo": -5.3902,
+    "ci95_hi": -4.8211,
+    "two_sided_p_approx": 0.0,
+    "significant_at_0.05": true
+  },
+  "en_ikt|syl_bpe_vs_syl_char": {
+    "corpus_a": 31.21,
+    "corpus_b": 35.95,
+    "observed_diff": -4.7387,
+    "ci95_lo": -5.0221,
+    "ci95_hi": -4.4218,
+    "two_sided_p_approx": 0.0,
+    "significant_at_0.05": true
+  },
+  "en_ikt|bleu": {
+    "syl_char": 19.26,
+    "syl_bpe": 15.83,
+    "syl_morph": 15.68
+  },
+  "en_ikt_romanized|scores": {
+    "syl_char": 49.46,
+    "syl_bpe": 44.54,
+    "syl_morph": 44.02
+  },
+  "en_ikt_romanized|syl_morph_vs_syl_bpe": {
+    "corpus_a": 44.02,
+    "corpus_b": 44.54,
+    "observed_diff": -0.5225,
+    "ci95_lo": -0.8043,
+    "ci95_hi": -0.2581,
+    "two_sided_p_approx": 0.0,
+    "significant_at_0.05": true
+  },
+  "en_ikt_romanized|syl_char_vs_syl_bpe": {
+    "corpus_a": 49.46,
+    "corpus_b": 44.54,
+    "observed_diff": 4.9192,
+    "ci95_lo": 4.565,
+    "ci95_hi": 5.242,
+    "two_sided_p_approx": 0.0,
+    "significant_at_0.05": true
+  }
+}

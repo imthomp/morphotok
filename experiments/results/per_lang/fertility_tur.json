@@ -1,0 +1,11 @@
+{
+  "fertility_analysis": {
+    "tur": {
+      "generated_by": "scripts/fertility_analysis.py",
+      "n_words": 16106,
+      "standard_bpe_fertility": 4.606,
+      "morfessor_fertility": 2.074,
+      "note": "standard_bpe = NLLB's own tokenizer applied directly per word; morfessor = pre-segmentation piece count, independent of NLLB vocab membership."
+    }
+  }
+}
