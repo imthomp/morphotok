@@ -40,6 +40,7 @@ def main():
     ap.add_argument("--lang", required=True)
     ap.add_argument("--wordlist", required=True)
     ap.add_argument("--max-words", type=int, default=50000)
+    ap.add_argument("--out-json", default=None, help="write here instead of the shared results JSON (avoids races in parallel runs)")
     args = ap.parse_args()
 
     words = [w for w in Path(args.wordlist).read_text(encoding="utf-8").splitlines() if w]
@@ -66,18 +67,19 @@ def main():
             }
         }
     }
-    OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
+    out_path = Path(args.out_json) if args.out_json else OUT_JSON
+    out_path.parent.mkdir(parents=True, exist_ok=True)
     existing = {}
-    if OUT_JSON.exists():
+    if out_path.exists():
         try:
-            existing = json.loads(OUT_JSON.read_text(encoding="utf-8"))
+            existing = json.loads(out_path.read_text(encoding="utf-8"))
         except json.JSONDecodeError:
             pass
     existing.setdefault("fertility_analysis", {}).update(result["fertility_analysis"])
-    OUT_JSON.write_text(json.dumps(existing, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    out_path.write_text(json.dumps(existing, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
     print(f"{args.lang}: standard_bpe={bpe_fertility:.3f}  morfessor={morf_fertility:.3f}")
-    print(f"Wrote {OUT_JSON}")
+    print(f"Wrote {out_path}")
 
 
 if __name__ == "__main__":

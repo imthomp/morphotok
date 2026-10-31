@@ -67,6 +67,7 @@ def main():
     ap.add_argument("--lang", required=True)
     ap.add_argument("--wordlist", required=True, help="one word-form per line, real text")
     ap.add_argument("--max-words", type=int, default=200000, help="cap for Morfessor training speed")
+    ap.add_argument("--out-json", default=None, help="write here instead of the shared results JSON (avoids races in parallel runs)")
     args = ap.parse_args()
 
     vocab = load_nllb_vocab(args.nllb_tokenizer)
@@ -91,19 +92,20 @@ def main():
             }
         }
     }
-    OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
+    out_path = Path(args.out_json) if args.out_json else OUT_JSON
+    out_path.parent.mkdir(parents=True, exist_ok=True)
     existing = {}
-    if OUT_JSON.exists():
+    if out_path.exists():
         try:
-            existing = json.loads(OUT_JSON.read_text(encoding="utf-8"))
+            existing = json.loads(out_path.read_text(encoding="utf-8"))
         except json.JSONDecodeError:
             pass
     existing.setdefault("unsupervised_vocabulary_density", {}).update(out["unsupervised_vocabulary_density"])
-    OUT_JSON.write_text(json.dumps(existing, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    out_path.write_text(json.dumps(existing, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
     print(f"{args.lang}: {len(words)} words, {density['morpheme_types_total']} unique Morfessor morphemes")
     print(f"  density_by_type={density['density_by_type']}  density_by_token={density['density_by_token']}")
-    print(f"Wrote {OUT_JSON}")
+    print(f"Wrote {out_path}")
 
 
 if __name__ == "__main__":
