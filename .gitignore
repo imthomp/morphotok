@@ -226,3 +226,8 @@ experiments/data/morphynet_cache/
 experiments/data/wordlists/
 experiments/data_pipeline/
 !experiments/data_pipeline/.gitkeep
+
+# Regenerable model outputs, and private working notes (kept local on backed-up storage)
+experiments/results/preds/
+notes/research_log.md
+notes/handoff_*.md
